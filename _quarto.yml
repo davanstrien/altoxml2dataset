@@ -15,22 +15,22 @@ format:
     toc-depth: 4
 
 website:
-  title: "altoxml2dataset"
-  description: "altoxml to datasets"
+  title: "alto2dataset"
+  description: "converts alto xml files to format compattible with huggingface datasets"
   execute: 
     enabled: false
   twitter-card: true
   open-graph: true
   reader-mode: true
   repo-branch: main
-  repo-url: https://github.com/davanstrien/altoxml2dataset/
+  repo-url: https://github.com/davanstrien/alto2dataset/
   repo-actions: [issue]
   navbar:
     background: primary
     search: true
     right:
       - icon: github
-        href: https://github.com/davanstrien/altoxml2dataset/
+        href: https://github.com/davanstrien/alto2dataset/
   sidebar:
     style: "floating"
 
