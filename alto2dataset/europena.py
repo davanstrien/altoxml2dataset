@@ -6,33 +6,24 @@ __all__ = ['alto_parse', 'get_alto_text', 'alto_illustrations', 'NewspaperPageAl
            'process_newspaper_page', 'process_batch', 'process']
 
 # %% ../01_europena.ipynb 6
-from typing import Any
-from typing import Optional
-from functools import lru_cache
 import io
-from typing import Union
-from typing import Any
-from statistics import mean
-from statistics import stdev
-import xml.etree.ElementTree as ET
-from dataclasses import dataclass
-from typing import List
-from dataclasses import asdict
-from dataclasses import field
 import os
-from toolz import partition_all
 import xml
-from types import NoneType
-from pathlib import Path
-from rich import print
-from typing import Union
-import xmltodict
+import xml.etree.ElementTree as ET
 from concurrent.futures import ProcessPoolExecutor, as_completed
-from typing import Iterable
+from dataclasses import asdict, dataclass, field
+from functools import lru_cache
+from pathlib import Path
+from statistics import mean, stdev
+from types import NoneType
 
+
+from typing import Any, Dict, Iterable, List, Optional, Union
+
+import xmltodict
+from rich import print
+from toolz import partition_all
 from tqdm.auto import tqdm
-
-from typing import Dict
 
 # %% ../01_europena.ipynb 14
 from loguru import logger
