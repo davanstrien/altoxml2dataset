@@ -15,7 +15,6 @@ from dataclasses import asdict, dataclass, field
 from functools import lru_cache
 from pathlib import Path
 from statistics import mean, stdev
-from types import NoneType
 
 
 from typing import Any, Dict, Iterable, List, Optional, Union
