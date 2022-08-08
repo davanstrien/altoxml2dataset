@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdagrp2="http://rdvocab.info/ElementsGr2/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <edm:ProvidedCHO rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095233933">
+    <dc:identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000095233933</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:title>Kurier Warszawski - 1916-06-19</dc:title>
+    <dc:type rdf:resource="http://schema.org/PublicationIssue"/>
+    <dc:type xml:lang="en">Analytic serial</dc:type>
+    <dc:type xml:lang="en">Newspaper</dc:type>
+    <dc:type xml:lang="en">Newspaper Issue</dc:type>
+    <dcterms:extent xml:lang="en">Pages: 4</dcterms:extent>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232537"/>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0618"/>
+    <dcterms:isPartOf xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+    <dcterms:issued>1916-06-19</dcterms:issued>
+    <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095234170"/>
+    <edm:type>TEXT</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0001_jpgid23834080/full/full/0/default.jpg">
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0001_jpgid23834080"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0002_jpgid23834090/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0001_jpgid23834080/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0002_jpgid23834090"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0003_jpgid23834101/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0002_jpgid23834090/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0003_jpgid23834101"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0004_jpgid23834113/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0003_jpgid23834101/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0004_jpgid23834113"/>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095233933#aggregation">
+    <edm:aggregatedCHO rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095233933"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0002_jpgid23834090/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0003_jpgid23834101/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0004_jpgid23834113/full/full/0/default.jpg"/>
+    <edm:isShownBy rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0001_jpgid23834080/full/full/0/default.jpg"/>
+    <edm:object rdf:resource="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0001_jpgid23834080/full/full/0/default.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0004_jpgid23834113">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0001_jpgid23834080">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0003_jpgid23834101">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/JKAQ63J2K2OJUDRLZNPECRK67RMLH5N6MKYQDRATAMEBODQFLMMA/presentation_images/7729dca0-0220-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1916/06/19/szzzid88386/0002_jpgid23834090">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+</rdf:RDF>

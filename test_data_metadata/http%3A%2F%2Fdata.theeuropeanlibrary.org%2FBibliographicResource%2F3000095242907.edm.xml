@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdagrp2="http://rdvocab.info/ElementsGr2/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <edm:ProvidedCHO rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095242907">
+    <dc:identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000095242907</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:title>Gazeta Warszawska - 1920-03-18</dc:title>
+    <dc:type rdf:resource="http://schema.org/PublicationIssue"/>
+    <dc:type xml:lang="en">Analytic serial</dc:type>
+    <dc:type xml:lang="en">Newspaper</dc:type>
+    <dc:type xml:lang="en">Newspaper Issue</dc:type>
+    <dcterms:extent xml:lang="en">Pages: 8</dcterms:extent>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095242547"/>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0618"/>
+    <dcterms:isPartOf xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+    <dcterms:issued>1920-03-18</dcterms:issued>
+    <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095242673"/>
+    <edm:type>TEXT</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0001_jpgid32368524/full/full/0/default.jpg">
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0001_jpgid32368524"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0002_jpgid32368549/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0001_jpgid32368524/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0002_jpgid32368549"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0003_jpgid32368576/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0002_jpgid32368549/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0003_jpgid32368576"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0004_jpgid32368591/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0003_jpgid32368576/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0004_jpgid32368591"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0005_jpgid32368611/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0004_jpgid32368591/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0005_jpgid32368611"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0006_jpgid32368628/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0005_jpgid32368611/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0006_jpgid32368628"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0007_jpgid32368646/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0006_jpgid32368628/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0007_jpgid32368646"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0008_jpgid32368664/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0007_jpgid32368646/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0008_jpgid32368664"/>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095242907#aggregation">
+    <edm:aggregatedCHO rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095242907"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0002_jpgid32368549/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0003_jpgid32368576/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0004_jpgid32368591/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0005_jpgid32368611/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0006_jpgid32368628/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0007_jpgid32368646/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0008_jpgid32368664/full/full/0/default.jpg"/>
+    <edm:isShownBy rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0001_jpgid32368524/full/full/0/default.jpg"/>
+    <edm:object rdf:resource="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0001_jpgid32368524/full/full/0/default.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0002_jpgid32368549">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0005_jpgid32368611">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0008_jpgid32368664">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0001_jpgid32368524">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0003_jpgid32368576">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0004_jpgid32368591">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0007_jpgid32368646">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/HIUEN2EFFXQ5KYE6IZWSOTAI3NLCN45ZMQZU2Q27GT6TQNFZE2XQ/presentation_images/67312110-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Gazeta_Warszawska/1920/03/18/szzzid109173/0006_jpgid32368628">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+</rdf:RDF>

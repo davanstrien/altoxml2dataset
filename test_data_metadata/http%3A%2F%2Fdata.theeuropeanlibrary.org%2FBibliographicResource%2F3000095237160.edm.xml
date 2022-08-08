@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdagrp2="http://rdvocab.info/ElementsGr2/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <edm:ProvidedCHO rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095237160">
+    <dc:identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000095237160</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:title>Monitor Polski - 1919-07-02</dc:title>
+    <dc:type rdf:resource="http://schema.org/PublicationIssue"/>
+    <dc:type xml:lang="en">Analytic serial</dc:type>
+    <dc:type xml:lang="en">Newspaper</dc:type>
+    <dc:type xml:lang="en">Newspaper Issue</dc:type>
+    <dcterms:extent xml:lang="en">Pages: 8</dcterms:extent>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095237047"/>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0618"/>
+    <dcterms:isPartOf xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+    <dcterms:issued>1919-07-02</dcterms:issued>
+    <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095237440"/>
+    <edm:type>TEXT</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0001_jpgid24525523/full/full/0/default.jpg">
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0001_jpgid24525523"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0002_jpgid24525537/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0001_jpgid24525523/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0002_jpgid24525537"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0003_jpgid24525552/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0002_jpgid24525537/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0003_jpgid24525552"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0004_jpgid24525567/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0003_jpgid24525552/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0004_jpgid24525567"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0005_jpgid24525583/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0004_jpgid24525567/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0005_jpgid24525583"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0006_jpgid24525599/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0005_jpgid24525583/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0006_jpgid24525599"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0007_jpgid24525614/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0006_jpgid24525599/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0007_jpgid24525614"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0008_jpgid24525629/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0007_jpgid24525614/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0008_jpgid24525629"/>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095237160#aggregation">
+    <edm:aggregatedCHO rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095237160"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0002_jpgid24525537/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0003_jpgid24525552/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0004_jpgid24525567/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0005_jpgid24525583/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0006_jpgid24525599/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0007_jpgid24525614/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0008_jpgid24525629/full/full/0/default.jpg"/>
+    <edm:isShownBy rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0001_jpgid24525523/full/full/0/default.jpg"/>
+    <edm:object rdf:resource="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0001_jpgid24525523/full/full/0/default.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0002_jpgid24525537">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0008_jpgid24525629">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0004_jpgid24525567">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0007_jpgid24525614">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0001_jpgid24525523">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0003_jpgid24525552">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0006_jpgid24525599">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/4OWHFKBXMSLCTLIOGFMSTPUYW7EVQSLHE2EHO5CJNBGRZ4UNUDXQ/presentation_images/b8af4160-023e-11e6-a696-fa163e2dd531/node-1/image/NLP/Monitor_Polski/1919/07/02/szzzid92570/0005_jpgid24525583">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+</rdf:RDF>

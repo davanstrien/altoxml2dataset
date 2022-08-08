@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdagrp2="http://rdvocab.info/ElementsGr2/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <edm:ProvidedCHO rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095239726">
+    <dc:identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000095239726</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:title>Kurjer Poznański - 1916-12-03</dc:title>
+    <dc:type rdf:resource="http://schema.org/PublicationIssue"/>
+    <dc:type xml:lang="en">Analytic serial</dc:type>
+    <dc:type xml:lang="en">Newspaper</dc:type>
+    <dc:type xml:lang="en">Newspaper Issue</dc:type>
+    <dcterms:extent xml:lang="en">Pages: 12</dcterms:extent>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095239626"/>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0618"/>
+    <dcterms:isPartOf xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+    <dcterms:issued>1916-12-03</dcterms:issued>
+    <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095239807"/>
+    <edm:type>TEXT</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0001_jpgid20574896/full/full/0/default.jpg">
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0001_jpgid20574896"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0002_jpgid20574901/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0001_jpgid20574896/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0002_jpgid20574901"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0003_jpgid20574906/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0002_jpgid20574901/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0003_jpgid20574906"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0004_jpgid20574911/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0003_jpgid20574906/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0004_jpgid20574911"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0005_jpgid20574916/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0004_jpgid20574911/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0005_jpgid20574916"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0006_jpgid20574921/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0005_jpgid20574916/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0006_jpgid20574921"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0007_jpgid20574926/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0006_jpgid20574921/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0007_jpgid20574926"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0008_jpgid20574931/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0007_jpgid20574926/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0008_jpgid20574931"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0009_jpgid20574936/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0008_jpgid20574931/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0009_jpgid20574936"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0010_jpgid20574941/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0009_jpgid20574936/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0010_jpgid20574941"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0011_jpgid20574946/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0010_jpgid20574941/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0011_jpgid20574946"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0012_jpgid20574951/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0011_jpgid20574946/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0012_jpgid20574951"/>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095239726#aggregation">
+    <edm:aggregatedCHO rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095239726"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0002_jpgid20574901/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0003_jpgid20574906/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0004_jpgid20574911/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0005_jpgid20574916/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0006_jpgid20574921/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0007_jpgid20574926/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0008_jpgid20574931/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0009_jpgid20574936/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0010_jpgid20574941/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0011_jpgid20574946/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0012_jpgid20574951/full/full/0/default.jpg"/>
+    <edm:isShownBy rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0001_jpgid20574896/full/full/0/default.jpg"/>
+    <edm:object rdf:resource="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0001_jpgid20574896/full/full/0/default.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0011_jpgid20574946">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0008_jpgid20574931">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0009_jpgid20574936">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0001_jpgid20574896">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0006_jpgid20574921">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0012_jpgid20574951">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0004_jpgid20574911">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0002_jpgid20574901">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0007_jpgid20574926">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0003_jpgid20574906">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0005_jpgid20574916">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/6G2EITO6AJXIRT6NQD2PLZBYNI2YS6VUDX4I7S3QIMROIMLCTGZA/presentation_images/384b6c40-0213-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Poznański/1916/12/03/szzzid73701/0010_jpgid20574941">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+</rdf:RDF>

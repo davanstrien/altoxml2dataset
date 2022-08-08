@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdagrp2="http://rdvocab.info/ElementsGr2/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <edm:ProvidedCHO rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232291">
+    <dc:identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000095232291</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:title>Głos Poranny - 1939-09-01</dc:title>
+    <dc:type rdf:resource="http://schema.org/PublicationIssue"/>
+    <dc:type xml:lang="en">Analytic serial</dc:type>
+    <dc:type xml:lang="en">Newspaper</dc:type>
+    <dc:type xml:lang="en">Newspaper Issue</dc:type>
+    <dcterms:extent xml:lang="en">Pages: 16</dcterms:extent>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232321"/>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0618"/>
+    <dcterms:isPartOf xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+    <dcterms:issued>1939-09-01</dcterms:issued>
+    <edm:type>TEXT</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0017_6003870_main/full/full/0/default.jpg">
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0017_6003870_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0018_6003900_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0017_6003870_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0018_6003900_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0019_6003865_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0018_6003900_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0019_6003865_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0020_6003920_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0019_6003865_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0020_6003920_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0021_6003860_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0020_6003920_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0021_6003860_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0022_6003895_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0021_6003860_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0022_6003895_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0023_6003890_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0022_6003895_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0023_6003890_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0024_6003925_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0023_6003890_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0024_6003925_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0025_6003915_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0024_6003925_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0025_6003915_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0026_6003855_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0025_6003915_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0026_6003855_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0027_6003885_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0026_6003855_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0027_6003885_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0028_6003850_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0027_6003885_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0028_6003850_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0029_6003880_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0028_6003850_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0029_6003880_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0030_6003905_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0029_6003880_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0030_6003905_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0031_6003875_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0030_6003905_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0031_6003875_main"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0032_6003910_main/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0031_6003875_main/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0032_6003910_main"/>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232291#aggregation">
+    <edm:aggregatedCHO rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232291"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0018_6003900_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0019_6003865_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0020_6003920_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0021_6003860_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0022_6003895_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0023_6003890_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0024_6003925_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0025_6003915_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0026_6003855_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0027_6003885_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0028_6003850_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0029_6003880_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0030_6003905_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0031_6003875_main/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0032_6003910_main/full/full/0/default.jpg"/>
+    <edm:isShownBy rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0017_6003870_main/full/full/0/default.jpg"/>
+    <edm:object rdf:resource="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0017_6003870_main/full/full/0/default.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0022_6003895_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0019_6003865_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0023_6003890_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0026_6003855_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0025_6003915_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0018_6003900_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0029_6003880_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0027_6003885_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0021_6003860_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0024_6003925_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0031_6003875_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0017_6003870_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0030_6003905_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0032_6003910_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0028_6003850_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/NTAH3YQXTOAJUHVXCDNXI6JRSEGEWN6NZ3NRGT6A7WXMFLWTIMUA/presentation_images/e93fe3b0-0226-11e6-a696-fa163e2dd531/node-1/image/NLP/Głos_Poranny/1939/09/01/0020_6003920_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+</rdf:RDF>

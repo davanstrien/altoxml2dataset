@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdagrp2="http://rdvocab.info/ElementsGr2/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <edm:ProvidedCHO rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095238233">
+    <dc:identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000095238233</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:title>Dziennik Śląski - 1919-06-29</dc:title>
+    <dc:type rdf:resource="http://schema.org/PublicationIssue"/>
+    <dc:type xml:lang="en">Analytic serial</dc:type>
+    <dc:type xml:lang="en">Newspaper</dc:type>
+    <dc:type xml:lang="en">Newspaper Issue</dc:type>
+    <dcterms:extent xml:lang="en">Pages: 14</dcterms:extent>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095238262"/>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0618"/>
+    <dcterms:isPartOf xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+    <dcterms:issued>1919-06-29</dcterms:issued>
+    <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095238809"/>
+    <edm:type>TEXT</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0001_jpgid27304474/full/full/0/default.jpg">
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0001_jpgid27304474"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0002_jpgid27304479/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0001_jpgid27304474/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0002_jpgid27304479"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0003_jpgid27304484/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0002_jpgid27304479/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0003_jpgid27304484"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0004_jpgid27304489/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0003_jpgid27304484/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0004_jpgid27304489"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0005_jpgid27304494/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0004_jpgid27304489/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0005_jpgid27304494"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0006_jpgid27304499/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0005_jpgid27304494/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0006_jpgid27304499"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0007_jpgid27304504/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0006_jpgid27304499/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0007_jpgid27304504"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0008_jpgid27304509/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0007_jpgid27304504/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0008_jpgid27304509"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0009_jpgid27304514/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0008_jpgid27304509/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0009_jpgid27304514"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0010_jpgid27304519/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0009_jpgid27304514/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0010_jpgid27304519"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0011_jpgid27304524/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0010_jpgid27304519/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0011_jpgid27304524"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0012_jpgid27304529/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0011_jpgid27304524/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0012_jpgid27304529"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0013_jpgid27304534/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0012_jpgid27304529/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0013_jpgid27304534"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0014_jpgid27304539/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0013_jpgid27304534/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0014_jpgid27304539"/>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095238233#aggregation">
+    <edm:aggregatedCHO rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095238233"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0002_jpgid27304479/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0003_jpgid27304484/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0004_jpgid27304489/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0005_jpgid27304494/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0006_jpgid27304499/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0007_jpgid27304504/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0008_jpgid27304509/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0009_jpgid27304514/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0010_jpgid27304519/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0011_jpgid27304524/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0012_jpgid27304529/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0013_jpgid27304534/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0014_jpgid27304539/full/full/0/default.jpg"/>
+    <edm:isShownBy rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0001_jpgid27304474/full/full/0/default.jpg"/>
+    <edm:object rdf:resource="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0001_jpgid27304474/full/full/0/default.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0004_jpgid27304489">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0009_jpgid27304514">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0003_jpgid27304484">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0001_jpgid27304474">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0007_jpgid27304504">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0014_jpgid27304539">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0005_jpgid27304494">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0011_jpgid27304524">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0013_jpgid27304534">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0008_jpgid27304509">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0006_jpgid27304499">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0012_jpgid27304529">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0002_jpgid27304479">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7JJPGMRYO5TPB4KFEGG3LEWVDCYLYTY54XTM3XS5B2M4LBXRUKUQ/presentation_images/ce9d8540-0239-11e6-a696-fa163e2dd531/node-1/image/NLP/Dziennik_Śląski/1919/06/29/szzzid100891/0010_jpgid27304519">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+</rdf:RDF>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdagrp2="http://rdvocab.info/ElementsGr2/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <edm:ProvidedCHO rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095236313">
+    <dc:identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000095236313</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:title>Kurier Warszawski - 1914-01-25</dc:title>
+    <dc:type rdf:resource="http://schema.org/PublicationIssue"/>
+    <dc:type xml:lang="en">Analytic serial</dc:type>
+    <dc:type xml:lang="en">Newspaper</dc:type>
+    <dc:type xml:lang="en">Newspaper Issue</dc:type>
+    <dcterms:extent xml:lang="en">Pages: 32</dcterms:extent>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232537"/>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0618"/>
+    <dcterms:isPartOf xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+    <dcterms:issued>1914-01-25</dcterms:issued>
+    <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095235885"/>
+    <edm:type>TEXT</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0001_jpgid22575763/full/full/0/default.jpg">
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0001_jpgid22575763"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0002_jpgid22575783/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0001_jpgid22575763/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0002_jpgid22575783"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0003_jpgid22575801/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0002_jpgid22575783/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0003_jpgid22575801"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0004_jpgid22575817/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0003_jpgid22575801/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0004_jpgid22575817"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0005_jpgid22575835/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0004_jpgid22575817/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0005_jpgid22575835"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0006_jpgid22575853/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0005_jpgid22575835/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0006_jpgid22575853"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0007_jpgid22575871/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0006_jpgid22575853/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0007_jpgid22575871"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0008_jpgid22575893/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0007_jpgid22575871/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0008_jpgid22575893"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0009_jpgid22575911/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0008_jpgid22575893/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0009_jpgid22575911"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0010_jpgid22575932/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0009_jpgid22575911/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0010_jpgid22575932"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0011_jpgid22575943/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0010_jpgid22575932/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0011_jpgid22575943"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0012_jpgid22575963/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0011_jpgid22575943/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0012_jpgid22575963"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0013_jpgid22575981/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0012_jpgid22575963/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0013_jpgid22575981"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0014_jpgid22576000/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0013_jpgid22575981/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0014_jpgid22576000"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0015_jpgid22576013/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0014_jpgid22576000/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0015_jpgid22576013"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0016_jpgid22576023/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0015_jpgid22576013/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0016_jpgid22576023"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0017_jpgid22576038/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0016_jpgid22576023/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0017_jpgid22576038"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0018_jpgid22576055/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0017_jpgid22576038/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0018_jpgid22576055"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0019_jpgid22576073/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0018_jpgid22576055/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0019_jpgid22576073"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0020_jpgid22576091/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0019_jpgid22576073/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0020_jpgid22576091"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0021_jpgid22576118/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0020_jpgid22576091/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0021_jpgid22576118"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0022_jpgid22576145/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0021_jpgid22576118/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0022_jpgid22576145"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0023_jpgid22576158/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0022_jpgid22576145/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0023_jpgid22576158"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0024_jpgid22576181/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0023_jpgid22576158/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0024_jpgid22576181"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0025_jpgid22576196/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0024_jpgid22576181/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0025_jpgid22576196"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0026_jpgid22576215/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0025_jpgid22576196/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0026_jpgid22576215"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0027_jpgid22576247/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0026_jpgid22576215/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0027_jpgid22576247"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0028_jpgid22576281/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0027_jpgid22576247/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0028_jpgid22576281"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0029_jpgid22576325/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0028_jpgid22576281/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0029_jpgid22576325"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0030_jpgid22576356/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0029_jpgid22576325/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0030_jpgid22576356"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0031_jpgid22576385/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0030_jpgid22576356/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0031_jpgid22576385"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0032_jpgid22576417/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0031_jpgid22576385/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0032_jpgid22576417"/>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095236313#aggregation">
+    <edm:aggregatedCHO rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095236313"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0002_jpgid22575783/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0003_jpgid22575801/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0004_jpgid22575817/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0005_jpgid22575835/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0006_jpgid22575853/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0007_jpgid22575871/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0008_jpgid22575893/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0009_jpgid22575911/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0010_jpgid22575932/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0011_jpgid22575943/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0012_jpgid22575963/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0013_jpgid22575981/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0014_jpgid22576000/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0015_jpgid22576013/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0016_jpgid22576023/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0017_jpgid22576038/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0018_jpgid22576055/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0019_jpgid22576073/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0020_jpgid22576091/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0021_jpgid22576118/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0022_jpgid22576145/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0023_jpgid22576158/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0024_jpgid22576181/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0025_jpgid22576196/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0026_jpgid22576215/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0027_jpgid22576247/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0028_jpgid22576281/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0029_jpgid22576325/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0030_jpgid22576356/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0031_jpgid22576385/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0032_jpgid22576417/full/full/0/default.jpg"/>
+    <edm:isShownBy rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0001_jpgid22575763/full/full/0/default.jpg"/>
+    <edm:object rdf:resource="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0001_jpgid22575763/full/full/0/default.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0026_jpgid22576215">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0029_jpgid22576325">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0002_jpgid22575783">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0025_jpgid22576196">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0004_jpgid22575817">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0018_jpgid22576055">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0031_jpgid22576385">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0014_jpgid22576000">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0001_jpgid22575763">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0008_jpgid22575893">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0003_jpgid22575801">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0030_jpgid22576356">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0024_jpgid22576181">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0021_jpgid22576118">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0028_jpgid22576281">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0009_jpgid22575911">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0010_jpgid22575932">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0006_jpgid22575853">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0007_jpgid22575871">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0013_jpgid22575981">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0016_jpgid22576023">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0022_jpgid22576145">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0011_jpgid22575943">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0027_jpgid22576247">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0019_jpgid22576073">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0023_jpgid22576158">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0012_jpgid22575963">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0032_jpgid22576417">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0017_jpgid22576038">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0020_jpgid22576091">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0015_jpgid22576013">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/3RJNHDLG27PKEKFCXRXR7QOTWRJ6UNIHXT7WVCKGGNTEAQUYQARA/presentation_images/79f91fa0-02d8-11e6-a651-fa163e2dd531/node-1/image/NLP/Kurier_Warszawski/1914/01/25/szzzid82515/0005_jpgid22575835">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+</rdf:RDF>

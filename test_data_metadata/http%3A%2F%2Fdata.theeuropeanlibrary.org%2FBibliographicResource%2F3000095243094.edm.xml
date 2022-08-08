@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdagrp2="http://rdvocab.info/ElementsGr2/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <edm:ProvidedCHO rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095243094">
+    <dc:identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000095243094</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:title>Kurjer Lwowski - 1914-07-04</dc:title>
+    <dc:type rdf:resource="http://schema.org/PublicationIssue"/>
+    <dc:type xml:lang="en">Analytic serial</dc:type>
+    <dc:type xml:lang="en">Newspaper</dc:type>
+    <dc:type xml:lang="en">Newspaper Issue</dc:type>
+    <dcterms:extent xml:lang="en">Pages: 14</dcterms:extent>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095242999"/>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0618"/>
+    <dcterms:isPartOf xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+    <dcterms:issued>1914-07-04</dcterms:issued>
+    <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095244071"/>
+    <edm:type>TEXT</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0001_jpgid27559216/full/full/0/default.jpg">
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0001_jpgid27559216"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0002_jpgid27559236/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0001_jpgid27559216/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0002_jpgid27559236"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0003_jpgid27559251/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0002_jpgid27559236/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0003_jpgid27559251"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0004_jpgid27559267/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0003_jpgid27559251/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0004_jpgid27559267"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0005_jpgid27559286/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0004_jpgid27559267/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0005_jpgid27559286"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0006_jpgid27559307/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0005_jpgid27559286/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0006_jpgid27559307"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0007_jpgid27559327/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0006_jpgid27559307/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0007_jpgid27559327"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0008_jpgid27559349/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0007_jpgid27559327/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0008_jpgid27559349"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0009_jpgid27559366/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0008_jpgid27559349/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0009_jpgid27559366"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0010_jpgid27559384/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0009_jpgid27559366/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0010_jpgid27559384"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0011_jpgid27559399/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0010_jpgid27559384/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0011_jpgid27559399"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0012_jpgid27559417/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0011_jpgid27559399/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0012_jpgid27559417"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0013_jpgid27559432/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0012_jpgid27559417/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0013_jpgid27559432"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0014_jpgid27559450/full/full/0/default.jpg">
+    <edm:isNextInSequence rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0013_jpgid27559432/full/full/0/default.jpg"/>
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0014_jpgid27559450"/>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095243094#aggregation">
+    <edm:aggregatedCHO rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095243094"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0002_jpgid27559236/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0003_jpgid27559251/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0004_jpgid27559267/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0005_jpgid27559286/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0006_jpgid27559307/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0007_jpgid27559327/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0008_jpgid27559349/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0009_jpgid27559366/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0010_jpgid27559384/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0011_jpgid27559399/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0012_jpgid27559417/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0013_jpgid27559432/full/full/0/default.jpg"/>
+    <edm:hasView rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0014_jpgid27559450/full/full/0/default.jpg"/>
+    <edm:isShownBy rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0001_jpgid27559216/full/full/0/default.jpg"/>
+    <edm:object rdf:resource="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0001_jpgid27559216/full/full/0/default.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0003_jpgid27559251">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0001_jpgid27559216">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0007_jpgid27559327">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0009_jpgid27559366">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0005_jpgid27559286">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0014_jpgid27559450">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0013_jpgid27559432">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0010_jpgid27559384">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0011_jpgid27559399">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0006_jpgid27559307">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0002_jpgid27559236">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0012_jpgid27559417">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0008_jpgid27559349">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/7K33WW3ONEQZEK273FJPRDI3ZJBNBXMSONX4BICQG325PQY3I3PQ/presentation_images/22f184e0-0233-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Lwowski/1914/07/04/szzzid101253/0004_jpgid27559267">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+</rdf:RDF>

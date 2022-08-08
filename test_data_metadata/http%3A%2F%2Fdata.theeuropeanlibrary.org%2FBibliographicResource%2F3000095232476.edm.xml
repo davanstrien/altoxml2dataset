@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <edm:ProvidedCHO rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232476">
+    <dc:date>1939</dc:date>
+    <dc:identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000095232476</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:title>Chwila</dc:title>
+    <dc:type rdf:resource="http://data.europeana.eu/concept/base/18"/>
+    <dc:type xml:lang="en">Newspaper Title</dc:type>
+    <dc:type xml:lang="en">Serial</dc:type>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232432"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232433"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232434"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232435"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232436"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232437"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232438"/>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0618"/>
+    <dcterms:issued>1939-09-01 - 1939-09-12</dcterms:issued>
+    <edm:type>TEXT</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/ZS7J5P2Y55QRDRW77637S5NPFVQWV5FF7CUAJG33SKZ2OW226VGQ/presentation_images/1f817620-020c-11e6-a696-fa163e2dd531/node-1/image/NLP/Chwila/1939/09/01/wydporanne/0013_5951921_main/full/full/0/default.jpg">
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/ZS7J5P2Y55QRDRW77637S5NPFVQWV5FF7CUAJG33SKZ2OW226VGQ/presentation_images/1f817620-020c-11e6-a696-fa163e2dd531/node-1/image/NLP/Chwila/1939/09/01/wydporanne/0013_5951921_main"/>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232476#aggregation">
+    <edm:aggregatedCHO rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095232476"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:isShownBy rdf:resource="https://iiif.europeana.eu/image/ZS7J5P2Y55QRDRW77637S5NPFVQWV5FF7CUAJG33SKZ2OW226VGQ/presentation_images/1f817620-020c-11e6-a696-fa163e2dd531/node-1/image/NLP/Chwila/1939/09/01/wydporanne/0013_5951921_main/full/full/0/default.jpg"/>
+    <edm:object rdf:resource="https://iiif.europeana.eu/image/ZS7J5P2Y55QRDRW77637S5NPFVQWV5FF7CUAJG33SKZ2OW226VGQ/presentation_images/1f817620-020c-11e6-a696-fa163e2dd531/node-1/image/NLP/Chwila/1939/09/01/wydporanne/0013_5951921_main/full/full/0/default.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/ZS7J5P2Y55QRDRW77637S5NPFVQWV5FF7CUAJG33SKZ2OW226VGQ/presentation_images/1f817620-020c-11e6-a696-fa163e2dd531/node-1/image/NLP/Chwila/1939/09/01/wydporanne/0013_5951921_main">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+</rdf:RDF>

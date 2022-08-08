@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svcs="http://rdfs.org/sioc/services#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <edm:ProvidedCHO rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247456">
+    <dc:date>1939</dc:date>
+    <dc:identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000095247456</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:title>Kurjer Warszawski</dc:title>
+    <dc:type rdf:resource="http://data.europeana.eu/concept/base/18"/>
+    <dc:type xml:lang="en">Newspaper Title</dc:type>
+    <dc:type xml:lang="en">Serial</dc:type>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247446"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247447"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247448"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247449"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247450"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247451"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247452"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247453"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247458"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247459"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247460"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247461"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247462"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247463"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247464"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247465"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247466"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247467"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247468"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247469"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247470"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247471"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247472"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247473"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247474"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247475"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247476"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247477"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247478"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247479"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247480"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247481"/>
+    <dcterms:hasPart rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247482"/>
+    <dcterms:isPartOf rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0618"/>
+    <dcterms:issued>1939-01-29 - 1939-10-06</dcterms:issued>
+    <edm:type>TEXT</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="https://iiif.europeana.eu/image/M64GJUFHLJTD3ZKBM6WNJLZWVFMRTJZWZTMYXFNDM6JRHJMDNKJQ/presentation_images/7729b8c0-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Warszawski/1939/01/29/szzzid82519/0001_jpgid22581676/full/full/0/default.jpg">
+    <svcs:has_service rdf:resource="https://iiif.europeana.eu/image/M64GJUFHLJTD3ZKBM6WNJLZWVFMRTJZWZTMYXFNDM6JRHJMDNKJQ/presentation_images/7729b8c0-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Warszawski/1939/01/29/szzzid82519/0001_jpgid22581676"/>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247456#aggregation">
+    <edm:aggregatedCHO rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000095247456"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:isShownBy rdf:resource="https://iiif.europeana.eu/image/M64GJUFHLJTD3ZKBM6WNJLZWVFMRTJZWZTMYXFNDM6JRHJMDNKJQ/presentation_images/7729b8c0-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Warszawski/1939/01/29/szzzid82519/0001_jpgid22581676/full/full/0/default.jpg"/>
+    <edm:object rdf:resource="https://iiif.europeana.eu/image/M64GJUFHLJTD3ZKBM6WNJLZWVFMRTJZWZTMYXFNDM6JRHJMDNKJQ/presentation_images/7729b8c0-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Warszawski/1939/01/29/szzzid82519/0001_jpgid22581676/full/full/0/default.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <svcs:Service rdf:about="https://iiif.europeana.eu/image/M64GJUFHLJTD3ZKBM6WNJLZWVFMRTJZWZTMYXFNDM6JRHJMDNKJQ/presentation_images/7729b8c0-0224-11e6-a696-fa163e2dd531/node-1/image/NLP/Kurjer_Warszawski/1939/01/29/szzzid82519/0001_jpgid22581676">
+    <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+    <doap:implements rdf:resource="http://iiif.io/api/image/2/level1.json"/>
+  </svcs:Service>
+</rdf:RDF>
