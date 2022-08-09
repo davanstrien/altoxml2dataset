@@ -5,7 +5,7 @@ __all__ = ['features', 'alto_parse', 'get_alto_text', 'alto_illustrations', 'New
            'NewspaperPageMetadata', 'get_metadata_from_xml', 'get_metadata_for_page', 'NewspaperPage',
            'process_newspaper_page', 'process_batch', 'process']
 
-# %% ../01_europena.ipynb 6
+# %% ../01_europena.ipynb 5
 import io
 import os
 import xml
@@ -24,10 +24,10 @@ import xmltodict
 from toolz import partition_all
 from tqdm.auto import tqdm
 
-# %% ../01_europena.ipynb 14
+# %% ../01_europena.ipynb 13
 from loguru import logger
 
-# %% ../01_europena.ipynb 15
+# %% ../01_europena.ipynb 14
 def alto_parse(alto: Union[str, Path], **kwargs):
     """Convert ALTO xml file to element tree"""
     try:
@@ -62,7 +62,7 @@ def alto_parse(alto: Union[str, Path], **kwargs):
     else:
         logger.warning(f"File {alto.name}: namespace {xmlns} is not registered.")
 
-# %% ../01_europena.ipynb 18
+# %% ../01_europena.ipynb 17
 def get_alto_text(xml, xmlns, join_lines=True):
     """Extract text content from ALTO xml file"""
     all_text = []
@@ -92,7 +92,7 @@ def get_alto_text(xml, xmlns, join_lines=True):
         std_ocr = None
     return " ".join(all_text), mean_ocr, std_ocr
 
-# %% ../01_europena.ipynb 20
+# %% ../01_europena.ipynb 19
 def alto_illustrations(xml, xmlns):
     """Extract bounding boxes of illustration from ALTO xml file"""
     # Find all <Illustration> elements
@@ -115,7 +115,7 @@ def alto_illustrations(xml, xmlns):
         bounding_boxes.append(illustration_coords)
     return bounding_boxes
 
-# %% ../01_europena.ipynb 28
+# %% ../01_europena.ipynb 27
 @define(slots=True)
 class NewspaperPageAlto:
     fname: Union[str, Path]
@@ -131,14 +131,14 @@ class NewspaperPageAlto:
     def __attrs_post_init__(self):
         self.item_id = self._get_id()
 
-# %% ../01_europena.ipynb 29
+# %% ../01_europena.ipynb 28
 def parse_newspaper_page(xml_fname: Union[str, Path]):
     fname, xml, ns = alto_parse(xml_fname)
     text, wc, std_ocr = get_alto_text(xml, ns)
     bounding_boxes = alto_illustrations(xml, ns)
     return NewspaperPageAlto(xml_fname, text, wc, std_ocr, bounding_boxes)
 
-# %% ../01_europena.ipynb 38
+# %% ../01_europena.ipynb 37
 @define(slots=True)
 class NewspaperPageMetadata:
     metadata_xml_fname: Union[str, Path]
@@ -157,7 +157,7 @@ class NewspaperPageMetadata:
         self.title = self.title.split("-")[0].strip(" ")
         self.metadata_xml_fname = str(self.metadata_xml_fname)
 
-# %% ../01_europena.ipynb 39
+# %% ../01_europena.ipynb 38
 def get_metadata_from_xml(xml_file: Union[Path, str]):
     with open(xml_file, "r") as f:
         xml = xmltodict.parse(f.read())
@@ -169,7 +169,7 @@ def get_metadata_from_xml(xml_file: Union[Path, str]):
     iiif_url = metadata["ore:Aggregation"]["edm:isShownBy"]["@rdf:resource"]
     return NewspaperPageMetadata(xml_file, title, data, languages, iiif_url, metadata)
 
-# %% ../01_europena.ipynb 47
+# %% ../01_europena.ipynb 46
 def get_metadata_for_page(
     page: NewspaperPageAlto, metadata_directory: Optional[str] = None
 ):
@@ -177,7 +177,7 @@ def get_metadata_for_page(
     metadata_xml = f"{metadata_directory}/http%3A%2F%2Fdata.theeuropeanlibrary.org%2FBibliographicResource%2F{short_id}.edm.xml"
     return get_metadata_from_xml(metadata_xml)
 
-# %% ../01_europena.ipynb 50
+# %% ../01_europena.ipynb 49
 @define(slots=True)
 class NewspaperPage:
     fname: Union[str, Path]
@@ -206,7 +206,7 @@ class NewspaperPage:
             isinstance(self.languages, list) and len(self.languages) > 1
         )
 
-# %% ../01_europena.ipynb 51
+# %% ../01_europena.ipynb 50
 def process_newspaper_page(
     xml_file: Union[str, Path], metadata_directory: Optional[str] = None
 ) -> Dict[Any, Any]:
@@ -217,11 +217,11 @@ def process_newspaper_page(
     page = asdict(page)
     return NewspaperPage(**page, **metadata)
 
-# %% ../01_europena.ipynb 59
+# %% ../01_europena.ipynb 58
 from datasets import Dataset
 from datasets import Value, Sequence, Features
 
-# %% ../01_europena.ipynb 60
+# %% ../01_europena.ipynb 59
 features=Features({
     'fname': Value(dtype='string', id=None),
     'text': Value(dtype='string', id=None),
@@ -242,7 +242,7 @@ features=Features({
 })
 
 
-# %% ../01_europena.ipynb 61
+# %% ../01_europena.ipynb 60
 @logger.catch()
 def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory=None):
     batch = [
@@ -254,7 +254,7 @@ def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory=None
 
     return Dataset.from_dict(batch,features=features)
 
-# %% ../01_europena.ipynb 64
+# %% ../01_europena.ipynb 63
 import multiprocessing 
 
 def process(
