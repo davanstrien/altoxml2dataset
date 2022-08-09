@@ -24,10 +24,10 @@ import xmltodict
 from toolz import partition_all
 from tqdm.auto import tqdm
 
-# %% ../01_europena.ipynb 13
+# %% ../01_europena.ipynb 12
 from loguru import logger
 
-# %% ../01_europena.ipynb 14
+# %% ../01_europena.ipynb 13
 def alto_parse(alto: Union[str, Path], **kwargs):
     """Convert ALTO xml file to element tree"""
     try:
@@ -138,7 +138,7 @@ def parse_newspaper_page(xml_fname: Union[str, Path]):
     bounding_boxes = alto_illustrations(xml, ns)
     return NewspaperPageAlto(xml_fname, text, wc, std_ocr, bounding_boxes)
 
-# %% ../01_europena.ipynb 36
+# %% ../01_europena.ipynb 34
 @define(slots=True)
 class NewspaperPageMetadata:
     metadata_xml_fname: Union[str, Path]
@@ -157,7 +157,7 @@ class NewspaperPageMetadata:
         self.title = self.title.split("-")[0].strip(" ")
         self.metadata_xml_fname = str(self.metadata_xml_fname)
 
-# %% ../01_europena.ipynb 37
+# %% ../01_europena.ipynb 35
 def get_metadata_from_xml(xml_file: Union[Path, str]):
     with open(xml_file, "r") as f:
         xml = xmltodict.parse(f.read())
@@ -169,7 +169,7 @@ def get_metadata_from_xml(xml_file: Union[Path, str]):
     iiif_url = metadata["ore:Aggregation"]["edm:isShownBy"]["@rdf:resource"]
     return NewspaperPageMetadata(xml_file, title, data, languages, iiif_url, metadata)
 
-# %% ../01_europena.ipynb 42
+# %% ../01_europena.ipynb 40
 def get_metadata_for_page(
     page: NewspaperPageAlto, metadata_directory: Optional[str] = None
 ):
@@ -177,7 +177,7 @@ def get_metadata_for_page(
     metadata_xml = f"{metadata_directory}/http%3A%2F%2Fdata.theeuropeanlibrary.org%2FBibliographicResource%2F{short_id}.edm.xml"
     return get_metadata_from_xml(metadata_xml)
 
-# %% ../01_europena.ipynb 45
+# %% ../01_europena.ipynb 43
 @define(slots=True)
 class NewspaperPage:
     fname: Union[str, Path]
@@ -206,7 +206,7 @@ class NewspaperPage:
             isinstance(self.languages, list) and len(self.languages) > 1
         )
 
-# %% ../01_europena.ipynb 46
+# %% ../01_europena.ipynb 44
 def process_newspaper_page(
     xml_file: Union[str, Path], metadata_directory: Optional[str] = None
 ) -> Dict[Any, Any]:
@@ -217,11 +217,11 @@ def process_newspaper_page(
     page = asdict(page)
     return NewspaperPage(**page, **metadata)
 
-# %% ../01_europena.ipynb 54
+# %% ../01_europena.ipynb 50
 from datasets import Dataset
 from datasets import Value, Sequence, Features
 
-# %% ../01_europena.ipynb 55
+# %% ../01_europena.ipynb 51
 features=Features({
     'fname': Value(dtype='string', id=None),
     'text': Value(dtype='string', id=None),
@@ -242,7 +242,7 @@ features=Features({
 })
 
 
-# %% ../01_europena.ipynb 56
+# %% ../01_europena.ipynb 52
 @logger.catch()
 def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory=None):
     batch = [
@@ -254,14 +254,14 @@ def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory=None
 
     return Dataset.from_dict(batch,features=features)
 
-# %% ../01_europena.ipynb 59
+# %% ../01_europena.ipynb 55
 import multiprocessing 
 
 def process(
     xml_files: Iterable[Union[str, Path]],
     batch_size: int = 32,
-    metadata_directory: Optional[str] = None,
-    max_workers: int = None
+    metadata_directory: Optional[Union[str,Path]] = None,
+    max_workers: Optional[int] = None
 ):
     with tqdm(total=len(xml_files) // batch_size) as pbar:
         if not max_workers:
