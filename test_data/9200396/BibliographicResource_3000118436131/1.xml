@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2014-09-09</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY FineReader Engine</softwareName><softwareVersion>11</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles><TextStyle ID="font0" FONTFAMILY="Arial" FONTSIZE="7"/><TextStyle ID="font1" FONTFAMILY="Times New Roman" FONTSIZE="9"/><TextStyle ID="font2" FONTFAMILY="Times New Roman" FONTSIZE="12"/><TextStyle ID="font3" FONTFAMILY="Times New Roman" FONTSIZE="13"/><TextStyle ID="font4" FONTFAMILY="Times New Roman" FONTSIZE="18"/><TextStyle ID="font5" FONTFAMILY="Times New Roman" FONTSIZE="33"/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2048" WIDTH="1256">
+<TopMargin HEIGHT="123" WIDTH="1256" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="1465" WIDTH="227" VPOS="123" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="1465" WIDTH="225" VPOS="123" HPOS="1031">
+</RightMargin>
+<BottomMargin HEIGHT="460" WIDTH="1256" VPOS="1588" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="1465" WIDTH="804" VPOS="123" HPOS="227">
+<TextBlock ID="Page1_Block1" HEIGHT="140" WIDTH="781" VPOS="123" HPOS="235" language="fr" STYLEREFS="font5"><Shape><Polygon POINTS="242,126 1022,126 1022,264 242,264 242,126"/></Shape>
+<TextLine HEIGHT="126" WIDTH="773" VPOS="131" HPOS="239"><String WC="0.5342857242" CONTENT="JOURNAL" HEIGHT="126" WIDTH="773" VPOS="131" HPOS="239"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block2" HEIGHT="67" WIDTH="608" VPOS="259" HPOS="324" language="fr" STYLEREFS="font1"><Shape><Polygon POINTS="330,262 938,262 938,327 330,327 330,262"/></Shape>
+<TextLine HEIGHT="55" WIDTH="596" VPOS="265" HPOS="330"><String STYLE="bold" STYLEREFS="font3" WC="0.5839999914" CONTENT="HISTORIQUE" HEIGHT="55" WIDTH="596" VPOS="265" HPOS="330"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block3" HEIGHT="53" WIDTH="113" VPOS="349" HPOS="569" language="fr" STYLEREFS="font3">
+<TextLine HEIGHT="39" WIDTH="100" VPOS="356" HPOS="575"><String STYLE="bold" WC="1." CONTENT="E" HEIGHT="39" WIDTH="35" VPOS="356" HPOS="575"/><SP WIDTH="25" VPOS="356" HPOS="611"/><String STYLE="bold" WC="0.4600000083" CONTENT="T" HEIGHT="39" WIDTH="38" VPOS="356" HPOS="637"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block4" HEIGHT="254" WIDTH="629" VPOS="435" HPOS="310" language="fr" STYLEREFS="font2"><Shape><Polygon POINTS="316,438 944,438 944,690 316,690 316,438"/></Shape>
+<TextLine HEIGHT="47" WIDTH="617" VPOS="441" HPOS="316" STYLEREFS="font3"><String STYLE="bold" WC="0.47299999" CONTENT="LITTERAIRE" HEIGHT="47" WIDTH="617" VPOS="441" HPOS="316"/></TextLine>
+<TextLine HEIGHT="47" WIDTH="302" VPOS="539" HPOS="469"><String STYLE="bold" WC="0.5266666412" CONTENT="15." HEIGHT="42" WIDTH="61" VPOS="544" HPOS="469"/><SP WIDTH="52" VPOS="542" HPOS="531"/><String STYLE="bold" WC="0.7820000052" CONTENT="AOUST" HEIGHT="37" WIDTH="187" VPOS="539" HPOS="584"/></TextLine>
+<TextLine HEIGHT="53" WIDTH="119" VPOS="629" HPOS="565"><String STYLE="bold" WC="0.3779999912" CONTENT="Ï780." HEIGHT="53" WIDTH="119" VPOS="629" HPOS="565"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block5" HEIGHT="58" WIDTH="223" VPOS="1052" HPOS="635" language="fr" STYLEREFS="font4"><Shape><Polygon POINTS="638,1055 861,1055 861,1112 638,1112 638,1055"/></Shape>
+<TextLine HEIGHT="56" WIDTH="221" VPOS="1054" HPOS="637"><String STYLE="italics" WC="0.2599999905" CONTENT="ImMÊmâ" HEIGHT="56" WIDTH="221" VPOS="1054" HPOS="637"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block6" HEIGHT="25" WIDTH="21" VPOS="1052" HPOS="911" language="fr" STYLEREFS="font0">
+<TextLine HEIGHT="20" WIDTH="18" VPOS="1055" HPOS="913"><String WC="0." CONTENT="V" HEIGHT="20" WIDTH="18" VPOS="1055" HPOS="913"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block7" HEIGHT="252" WIDTH="769" VPOS="1142" HPOS="251" language="fr" STYLEREFS="font1"><Shape><Polygon POINTS="686,1145 1022,1145 1022,1395 254,1395 254,1199 686,1199 686,1145"/></Shape>
+<TextLine HEIGHT="41" WIDTH="485" VPOS="1204" HPOS="391"><String STYLE="bold" WC="0.2899999917" CONTENT="A" HEIGHT="28" WIDTH="32" VPOS="1211" HPOS="391"/><SP WIDTH="39" VPOS="1210" HPOS="424"/><String STYLE="bold" WC="0.6636363864" CONTENT="LUXEMBOURG," HEIGHT="41" WIDTH="412" VPOS="1204" HPOS="464"/></TextLine>
+<TextLine HEIGHT="38" WIDTH="756" VPOS="1263" HPOS="257"><String WC="0.5" CONTENT="Chez" HEIGHT="29" WIDTH="84" VPOS="1268" HPOS="257"/><SP WIDTH="20" VPOS="1270" HPOS="342"/><String STYLE="bold" WC="0.7799999714" CONTENT="1^5" HEIGHT="26" WIDTH="41" VPOS="1270" HPOS="363"/><SP WIDTH="23" VPOS="1270" HPOS="405"/><String STYLE="bold" WC="0.5744444728" CONTENT="Héritiers" HEIGHT="30" WIDTH="144" VPOS="1267" HPOS="429"/><SP WIDTH="21" VPOS="1267" HPOS="574"/><String STYLE="bold" WC="0.6499999762" CONTENT="d’André" HEIGHT="30" WIDTH="136" VPOS="1265" HPOS="596"/><SP WIDTH="28" VPOS="1265" HPOS="733"/><String STYLE="bold" WC="0.6119999886" CONTENT="Chevalier," HEIGHT="36" WIDTH="178" VPOS="1264" HPOS="762"/><SP WIDTH="24" VPOS="1274" HPOS="941"/><String STYLE="bold" WC="0.6750000119" CONTENT="vi" HEIGHT="31" WIDTH="32" VPOS="1263" HPOS="966" SUBS_TYPE="HypPart1" SUBS_CONTENT="vivant"/><HYP CONTENT="­"/></TextLine>
+<TextLine HEIGHT="41" WIDTH="637" VPOS="1304" HPOS="323"><String STYLE="bold" WC="0.3774999976" CONTENT="vant" HEIGHT="22" WIDTH="71" VPOS="1316" HPOS="324" SUBS_TYPE="HypPart2" SUBS_CONTENT="vivant"/><SP WIDTH="14" VPOS="1311" HPOS="396"/><String STYLE="bold" WC="0.5477777719" CONTENT="Imprimeur" HEIGHT="36" WIDTH="177" VPOS="1309" HPOS="411"/><SP WIDTH="18" VPOS="1309" HPOS="589"/><String STYLE="bold" WC="0.7749999762" CONTENT="de" HEIGHT="27" WIDTH="36" VPOS="1309" HPOS="608"/><SP WIDTH="20" VPOS="1308" HPOS="644"/><String STYLE="bold" WC="1." CONTENT="S." HEIGHT="27" WIDTH="30" VPOS="1308" HPOS="664"/><SP WIDTH="21" VPOS="1307" HPOS="694"/><String STYLE="bold" WC="0.5199999809" CONTENT="Maj." HEIGHT="37" WIDTH="73" VPOS="1306" HPOS="715"/><SP WIDTH="19" VPOS="1308" HPOS="789"/><String STYLE="bold" WC="0.493750006" CONTENT="l’Impéra" HEIGHT="38" WIDTH="136" VPOS="1304" HPOS="808" SUBS_TYPE="HypPart1" SUBS_CONTENT="l’Impératrice-Reine"/><HYP CONTENT="­"/></TextLine>
+<TextLine HEIGHT="39" WIDTH="425" VPOS="1348" HPOS="423"><String STYLE="bold" WC="0.6690909266" CONTENT="trice-Reine" HEIGHT="29" WIDTH="190" VPOS="1351" HPOS="423" SUBS_TYPE="HypPart2" SUBS_CONTENT="l’Impératrice-Reine"/><SP WIDTH="24" VPOS="1349" HPOS="614"/><String STYLE="bold" WC="0.6424999833" CONTENT="Apoftolique." HEIGHT="38" WIDTH="209" VPOS="1348" HPOS="639"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block8" HEIGHT="96" WIDTH="759" VPOS="1492" HPOS="264" language="fr" STYLEREFS="font1"><Shape><Polygon POINTS="393,1495 1025,1495 1025,1551 985,1551 985,1589 266,1589 266,1497 393,1497 393,1495"/></Shape>
+<TextLine HEIGHT="45" WIDTH="747" VPOS="1499" HPOS="270"><String WC="0.1040000021" CONTENT="„dVec" HEIGHT="31" WIDTH="90" VPOS="1502" HPOS="270"/><SP WIDTH="35" VPOS="1503" HPOS="361"/><String STYLE="italics" WC="0.5588889122" CONTENT="Privi&apos;eçe" HEIGHT="38" WIDTH="152" VPOS="1502" HPOS="397"/><SP WIDTH="24" VPOS="1501" HPOS="550"/><String STYLE="italics" WC="0.1350000054" CONTENT="de" HEIGHT="26" WIDTH="31" VPOS="1501" HPOS="575"/><SP WIDTH="19" VPOS="1502" HPOS="607"/><String STYLE="italics" WC="0.5899999738" CONTENT="Sa" HEIGHT="27" WIDTH="38" VPOS="1502" HPOS="627"/><SP WIDTH="24" VPOS="1502" HPOS="666"/><String STYLE="italics" WC="0.4575000107" CONTENT="Maj." HEIGHT="37" WIDTH="76" VPOS="1501" HPOS="691"/><SP WIDTH="25" VPOS="1501" HPOS="768"/><String STYLE="italics" WC="0.5674999952" CONTENT="Imp." HEIGHT="37" WIDTH="74" VPOS="1501" HPOS="794"/><SP WIDTH="24" VPOS="1499" HPOS="869"/><String STYLE="italics" WC="1." CONTENT="&amp;" HEIGHT="31" WIDTH="30" VPOS="1499" HPOS="894"/><SP WIDTH="21" VPOS="1499" HPOS="925"/><String STYLE="italics" WC="0.1875" CONTENT="jîp~" HEIGHT="41" WIDTH="70" VPOS="1501" HPOS="947"/></TextLine>
+<TextLine HEIGHT="42" WIDTH="676" VPOS="1540" HPOS="302"><String STYLE="italics" WC="0.3219999969" CONTENT="priilation" HEIGHT="37" WIDTH="150" VPOS="1545" HPOS="302"/><SP WIDTH="23" VPOS="1544" HPOS="453"/><String STYLE="italics" WC="0.2549999952" CONTENT="du" HEIGHT="29" WIDTH="39" VPOS="1543" HPOS="477"/><SP WIDTH="18" VPOS="1541" HPOS="517"/><String STYLE="italics" WC="0.4050000012" CONTENT="Commifaire-Examinateur-," HEIGHT="39" WIDTH="442" VPOS="1540" HPOS="536"/></TextLine>
+</TextBlock>
+<Illustration ID="Page1_Block9" HEIGHT="434" WIDTH="651" VPOS="733" HPOS="303"><Shape><Polygon POINTS="308,736 957,736 957,1057 640,1057 640,1168 308,1168 308,736"/></Shape></Illustration><GraphicalElement ID="Page1_Block10" HEIGHT="15" WIDTH="673" VPOS="1434" HPOS="292"/><GraphicalElement ID="Page1_Block11" HEIGHT="7" WIDTH="671" VPOS="1453" HPOS="292"/>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

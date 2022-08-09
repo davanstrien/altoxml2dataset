@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2014-09-09</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY FineReader Engine</softwareName><softwareVersion>11</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles><TextStyle ID="font0" FONTFAMILY="Times New Roman" FONTSIZE="8"/><TextStyle ID="font1" FONTFAMILY="Times New Roman" FONTSIZE="9"/><TextStyle ID="font2" FONTFAMILY="Times New Roman" FONTSIZE="10"/><TextStyle ID="font3" FONTFAMILY="Times New Roman" FONTSIZE="14"/><TextStyle ID="font4" FONTFAMILY="Times New Roman" FONTSIZE="15"/><TextStyle ID="font5" FONTFAMILY="Times New Roman" FONTSIZE="32"/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2048" WIDTH="1256">
+<TopMargin HEIGHT="238" WIDTH="1256" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="1528" WIDTH="248" VPOS="238" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="1528" WIDTH="244" VPOS="238" HPOS="1012">
+</RightMargin>
+<BottomMargin HEIGHT="282" WIDTH="1256" VPOS="1766" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="1528" WIDTH="764" VPOS="238" HPOS="248">
+<TextBlock ID="Page1_Block1" HEIGHT="121" WIDTH="727" VPOS="238" HPOS="273" language="fr" STYLEREFS="font5"><Shape><Polygon POINTS="274,242 1001,242 1001,360 274,360 274,242"/></Shape>
+<TextLine HEIGHT="109" WIDTH="716" VPOS="245" HPOS="280"><String WC="0.4757142961" CONTENT="JOURNAL" HEIGHT="109" WIDTH="716" VPOS="245" HPOS="280"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block2" HEIGHT="68" WIDTH="614" VPOS="387" HPOS="326" language="fr" STYLEREFS="font3"><Shape><Polygon POINTS="328,391 941,391 941,456 328,456 328,391"/></Shape>
+<TextLine HEIGHT="56" WIDTH="602" VPOS="393" HPOS="332"><String STYLE="bold" WC="0.7210000157" CONTENT="HISTORIQUE" HEIGHT="56" WIDTH="602" VPOS="393" HPOS="332"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block3" HEIGHT="56" WIDTH="111" VPOS="493" HPOS="577" language="fr" STYLEREFS="font3"><Shape><Polygon POINTS="579,496 690,496 690,551 579,551 579,496"/></Shape>
+<TextLine HEIGHT="44" WIDTH="99" VPOS="499" HPOS="583"><String STYLE="bold" WC="0.5400000215" CONTENT="E" HEIGHT="41" WIDTH="31" VPOS="499" HPOS="583"/><SP WIDTH="27" VPOS="499" HPOS="615"/><String STYLE="bold" WC="0.8000000119" CONTENT="T" HEIGHT="39" WIDTH="39" VPOS="504" HPOS="643"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block4" HEIGHT="64" WIDTH="639" VPOS="577" HPOS="314" language="fr" STYLEREFS="font4"><Shape><Polygon POINTS="316,581 955,581 955,642 316,642 316,581"/></Shape>
+<TextLine HEIGHT="51" WIDTH="627" VPOS="583" HPOS="320"><String STYLE="bold italics" WC="0.3899999857" CONTENT="L" HEIGHT="45" WIDTH="41" VPOS="583" HPOS="320"/><SP WIDTH="26" VPOS="583" HPOS="362"/><String STYLE="bold italics" WC="0.4600000083" CONTENT="1" HEIGHT="43" WIDTH="28" VPOS="588" HPOS="389"/><SP WIDTH="20" VPOS="587" HPOS="418"/><String STYLE="bold italics" WC="1." CONTENT="T" HEIGHT="44" WIDTH="44" VPOS="587" HPOS="439"/><SP WIDTH="17" VPOS="587" HPOS="484"/><String STYLE="bold italics" WC="0.7900000215" CONTENT="T" HEIGHT="43" WIDTH="42" VPOS="587" HPOS="502"/><SP WIDTH="17" VPOS="587" HPOS="545"/><String STYLE="bold italics" WC="0.5899999738" CONTENT="E" HEIGHT="43" WIDTH="44" VPOS="587" HPOS="563"/><SP WIDTH="24" VPOS="587" HPOS="608"/><String STYLE="bold italics" WC="0.4099999964" CONTENT="R" HEIGHT="42" WIDTH="43" VPOS="590" HPOS="633"/><SP WIDTH="26" VPOS="590" HPOS="677"/><String STYLE="bold italics" WC="0." CONTENT="J" HEIGHT="42" WIDTH="47" VPOS="591" HPOS="704"/><SP WIDTH="24" VPOS="589" HPOS="752"/><String STYLE="bold italics" WC="0.7749999762" CONTENT="IR" HEIGHT="43" WIDTH="92" VPOS="589" HPOS="777"/><SP WIDTH="27" VPOS="588" HPOS="870"/><String STYLE="bold italics" WC="0.150000006" CONTENT="K" HEIGHT="44" WIDTH="49" VPOS="589" HPOS="898"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block5" HEIGHT="69" WIDTH="410" VPOS="692" HPOS="414" language="fr" STYLEREFS="font3"><Shape><Polygon POINTS="417,695 827,695 827,763 417,763 417,695"/></Shape>
+<TextLine HEIGHT="56" WIDTH="397" VPOS="698" HPOS="420"><String WC="0.7975000143" CONTENT="JUIN" HEIGHT="56" WIDTH="214" VPOS="698" HPOS="420"/><SP WIDTH="61" VPOS="699" HPOS="635"/><String WC="0.3019999862" CONTENT="1775." HEIGHT="44" WIDTH="120" VPOS="709" HPOS="697"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block6" HEIGHT="42" WIDTH="360" VPOS="843" HPOS="445" language="fr" STYLEREFS="font0"><Shape><Polygon POINTS="448,846 808,846 808,887 448,887 448,846"/></Shape>
+<TextLine HEIGHT="30" WIDTH="348" VPOS="849" HPOS="451"><String STYLE="smallcaps" WC="0.354285717" CONTENT="Seconde" HEIGHT="29" WIDTH="165" VPOS="849" HPOS="451"/><SP WIDTH="28" VPOS="851" HPOS="617"/><String STYLE="smallcaps" WC="0.3528571427" CONTENT="Partie." HEIGHT="27" WIDTH="153" VPOS="852" HPOS="646"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block7" HEIGHT="45" WIDTH="470" VPOS="1490" HPOS="393" language="fr" STYLEREFS="font2"><Shape><Polygon POINTS="399,1493 869,1493 869,1537 399,1537 399,1493"/></Shape>
+<TextLine HEIGHT="33" WIDTH="457" VPOS="1496" HPOS="400"><String STYLE="bold" WC="0.8199999928" CONTENT="A" HEIGHT="28" WIDTH="25" VPOS="1498" HPOS="400"/><SP WIDTH="32" VPOS="1498" HPOS="426"/><String STYLE="bold" WC="0.6563636661" CONTENT="LUXEMBOURG," HEIGHT="33" WIDTH="398" VPOS="1496" HPOS="459"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block8" HEIGHT="80" WIDTH="758" VPOS="1546" HPOS="249" language="fr" STYLEREFS="font1"><Shape><Polygon POINTS="255,1550 1013,1550 1013,1627 255,1627 255,1550"/></Shape>
+<TextLine HEIGHT="33" WIDTH="746" VPOS="1552" HPOS="255"><String WC="0.2975000143" CONTENT="Chez" HEIGHT="25" WIDTH="72" VPOS="1554" HPOS="255"/><SP WIDTH="12" VPOS="1553" HPOS="328"/><String WC="0.3400000036" CONTENT="les" HEIGHT="26" WIDTH="39" VPOS="1553" HPOS="341"/><SP WIDTH="7" VPOS="1556" HPOS="381"/><String WC="0.3811111152" CONTENT="Héritiers" HEIGHT="25" WIDTH="132" VPOS="1555" HPOS="389"/><SP WIDTH="14" VPOS="1554" HPOS="522"/><String WC="0.6157143116" CONTENT="d’André" HEIGHT="26" WIDTH="123" VPOS="1553" HPOS="537"/><SP WIDTH="9" VPOS="1555" HPOS="661"/><String WC="0.5920000076" CONTENT="Chevalier," HEIGHT="30" WIDTH="162" VPOS="1554" HPOS="671"/><SP WIDTH="10" VPOS="1563" HPOS="834"/><String WC="0.6750000119" CONTENT="vivant" HEIGHT="28" WIDTH="96" VPOS="1554" HPOS="845"/><SP WIDTH="7" VPOS="1557" HPOS="942"/><String WC="0.1800000072" CONTENT="Im" HEIGHT="27" WIDTH="42" VPOS="1557" HPOS="950" SUBS_TYPE="HypPart1" SUBS_CONTENT="Imprimeur"/><HYP CONTENT="­"/></TextLine>
+<TextLine HEIGHT="35" WIDTH="684" VPOS="1585" HPOS="289"><String WC="0.3271428645" CONTENT="primeur" HEIGHT="31" WIDTH="113" VPOS="1586" HPOS="289" SUBS_TYPE="HypPart2" SUBS_CONTENT="Imprimeur"/><SP WIDTH="7" VPOS="1588" HPOS="403"/><String WC="0.9649999738" CONTENT="de" HEIGHT="24" WIDTH="33" VPOS="1588" HPOS="411"/><SP WIDTH="10" VPOS="1588" HPOS="445"/><String WC="0.3799999952" CONTENT="Sa" HEIGHT="25" WIDTH="33" VPOS="1588" HPOS="456"/><SP WIDTH="7" VPOS="1588" HPOS="490"/><String WC="0.5824999809" CONTENT="Maj." HEIGHT="29" WIDTH="65" VPOS="1588" HPOS="498"/><SP WIDTH="7" VPOS="1587" HPOS="564"/><String WC="0.5336841941" CONTENT="l’Impératrice-Reine" HEIGHT="31" WIDTH="297" VPOS="1586" HPOS="572"/><SP WIDTH="6" VPOS="1588" HPOS="870"/><String WC="0.3516666591" CONTENT="Apoit." HEIGHT="31" WIDTH="96" VPOS="1589" HPOS="877"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block9" HEIGHT="99" WIDTH="736" VPOS="1667" HPOS="255" language="fr" STYLEREFS="font0"><Shape><Polygon POINTS="262,1671 998,1671 998,1767 262,1767 262,1671"/></Shape>
+<TextLine HEIGHT="44" WIDTH="709" VPOS="1674" HPOS="276"><String STYLE="italics" WC="0.4449999928" CONTENT="Avec" HEIGHT="25" WIDTH="78" VPOS="1681" HPOS="276"/><SP WIDTH="9" VPOS="1681" HPOS="355"/><String STYLE="italics" WC="0.6444444656" CONTENT="Privilège" HEIGHT="38" WIDTH="133" VPOS="1678" HPOS="365"/><SP WIDTH="14" VPOS="1680" HPOS="499"/><String STYLE="italics" WC="0.75" CONTENT="de" HEIGHT="27" WIDTH="31" VPOS="1680" HPOS="514"/><SP WIDTH="7" VPOS="1684" HPOS="546"/><String STYLE="italics" WC="1." CONTENT="Sa" HEIGHT="23" WIDTH="34" VPOS="1684" HPOS="554"/><SP WIDTH="10" VPOS="1683" HPOS="589"/><String STYLE="italics" WC="0.2649999857" CONTENT="Ma}." HEIGHT="34" WIDTH="70" VPOS="1680" HPOS="600"/><SP WIDTH="13" VPOS="1684" HPOS="671"/><String STYLE="italics" WC="0.6600000262" CONTENT="Imp." HEIGHT="32" WIDTH="64" VPOS="1684" HPOS="685"/><SP WIDTH="11" VPOS="1676" HPOS="750"/><String STYLE="italics" WC="0.6449999809" CONTENT="Ô’" HEIGHT="34" WIDTH="34" VPOS="1676" HPOS="762"/><SP WIDTH="11" VPOS="1681" HPOS="797"/><String STYLE="italics" WC="0.3845454454" CONTENT="Approbation" HEIGHT="40" WIDTH="176" VPOS="1676" HPOS="809"/></TextLine>
+<TextLine HEIGHT="40" WIDTH="450" VPOS="1719" HPOS="393"><String STYLE="italics" WC="0.7200000286" CONTENT="du" HEIGHT="28" WIDTH="37" VPOS="1719" HPOS="393"/><SP WIDTH="15" VPOS="1723" HPOS="431"/><String STYLE="italics" WC="0.3683333397" CONTENT="Commijfairc-Examinateur." HEIGHT="40" WIDTH="396" VPOS="1719" HPOS="447"/></TextLine>
+</TextBlock>
+<Illustration ID="Page1_Block10" HEIGHT="535" WIDTH="676" VPOS="888" HPOS="296"><Shape><Polygon POINTS="302,892 975,892 975,1424 302,1424 302,892"/></Shape></Illustration><GraphicalElement ID="Page1_Block11" HEIGHT="14" WIDTH="481" VPOS="826" HPOS="384"/><GraphicalElement ID="Page1_Block12" HEIGHT="14" WIDTH="374" VPOS="895" HPOS="430"/><GraphicalElement ID="Page1_Block13" HEIGHT="10" WIDTH="703" VPOS="1643" HPOS="257"/>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

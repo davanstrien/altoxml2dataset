@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2014-09-09</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY FineReader Engine</softwareName><softwareVersion>11</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles><TextStyle ID="font0" FONTFAMILY="Times New Roman" FONTSIZE="6"/><TextStyle ID="font1" FONTFAMILY="Times New Roman" FONTSIZE="7"/><TextStyle ID="font2" FONTFAMILY="Times New Roman" FONTSIZE="10"/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2048" WIDTH="1256">
+<TopMargin HEIGHT="388" WIDTH="1256" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="1182" WIDTH="251" VPOS="388" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="1182" WIDTH="278" VPOS="388" HPOS="978">
+</RightMargin>
+<BottomMargin HEIGHT="478" WIDTH="1256" VPOS="1570" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="1182" WIDTH="727" VPOS="388" HPOS="251">
+<TextBlock ID="Page1_Block1" HEIGHT="28" WIDTH="22" VPOS="388" HPOS="700" language="fr" STYLEREFS="font2">
+<TextLine HEIGHT="19" WIDTH="16" VPOS="392" HPOS="701"><String STYLE="italics" STYLEREFS="font1" WC="0.3000000119" CONTENT="J" HEIGHT="19" WIDTH="16" VPOS="392" HPOS="701"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block2" HEIGHT="40" WIDTH="18" VPOS="722" HPOS="251" language="fr" STYLEREFS="font2">
+<TextLine HEIGHT="28" WIDTH="6" VPOS="728" HPOS="257"><String STYLE="bold italics" WC="1." CONTENT="I" HEIGHT="28" WIDTH="6" VPOS="728" HPOS="257"/></TextLine>
+</TextBlock>
+<TextBlock ID="Page1_Block3" HEIGHT="26" WIDTH="18" VPOS="1413" HPOS="960" language="fr" STYLEREFS="font0">
+<TextLine HEIGHT="14" WIDTH="7" VPOS="1419" HPOS="965"><String STYLE="italics" WC="0.1599999964" CONTENT="t" HEIGHT="14" WIDTH="7" VPOS="1419" HPOS="965"/></TextLine>
+</TextBlock>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>
