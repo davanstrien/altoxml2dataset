@@ -169,7 +169,7 @@ def get_metadata_from_xml(xml_file: Union[Path, str]):
     iiif_url = metadata["ore:Aggregation"]["edm:isShownBy"]["@rdf:resource"]
     return NewspaperPageMetadata(xml_file, title, data, languages, iiif_url, metadata)
 
-# %% ../01_europena.ipynb 45
+# %% ../01_europena.ipynb 42
 def get_metadata_for_page(
     page: NewspaperPageAlto, metadata_directory: Optional[str] = None
 ):
@@ -177,7 +177,7 @@ def get_metadata_for_page(
     metadata_xml = f"{metadata_directory}/http%3A%2F%2Fdata.theeuropeanlibrary.org%2FBibliographicResource%2F{short_id}.edm.xml"
     return get_metadata_from_xml(metadata_xml)
 
-# %% ../01_europena.ipynb 48
+# %% ../01_europena.ipynb 45
 @define(slots=True)
 class NewspaperPage:
     fname: Union[str, Path]
@@ -206,7 +206,7 @@ class NewspaperPage:
             isinstance(self.languages, list) and len(self.languages) > 1
         )
 
-# %% ../01_europena.ipynb 49
+# %% ../01_europena.ipynb 46
 def process_newspaper_page(
     xml_file: Union[str, Path], metadata_directory: Optional[str] = None
 ) -> Dict[Any, Any]:
@@ -217,11 +217,11 @@ def process_newspaper_page(
     page = asdict(page)
     return NewspaperPage(**page, **metadata)
 
-# %% ../01_europena.ipynb 57
+# %% ../01_europena.ipynb 54
 from datasets import Dataset
 from datasets import Value, Sequence, Features
 
-# %% ../01_europena.ipynb 58
+# %% ../01_europena.ipynb 55
 features=Features({
     'fname': Value(dtype='string', id=None),
     'text': Value(dtype='string', id=None),
@@ -242,7 +242,7 @@ features=Features({
 })
 
 
-# %% ../01_europena.ipynb 59
+# %% ../01_europena.ipynb 56
 @logger.catch()
 def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory=None):
     batch = [
@@ -254,7 +254,7 @@ def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory=None
 
     return Dataset.from_dict(batch,features=features)
 
-# %% ../01_europena.ipynb 62
+# %% ../01_europena.ipynb 59
 import multiprocessing 
 
 def process(
