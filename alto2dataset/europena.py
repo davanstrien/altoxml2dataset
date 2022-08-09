@@ -16,7 +16,7 @@ from functools import lru_cache
 from pathlib import Path
 from statistics import mean, stdev
 
-
+import attr
 from typing import Any, Dict, Iterable, List, Optional, Union
 
 import xmltodict
@@ -44,6 +44,7 @@ def alto_parse(alto: Union[str, Path], **kwargs):
         "alto-2": "http://www.loc.gov/standards/alto/ns-v2#",
         "alto-3": "http://www.loc.gov/standards/alto/ns-v3#",
         "alto-4": "http://www.loc.gov/standards/alto/ns-v4#",
+        "alto-5": "http://schema.ccs-gmbh.com/docworks/version20/alto-1-4.xsd",
         "alto-bnf": "http://bibnum.bnf.fr/ns/alto_prod",
     }
     # Extract namespace from document root
@@ -115,7 +116,7 @@ def alto_illustrations(xml, xmlns):
     return bounding_boxes
 
 # %% ../01_europena.ipynb 28
-@dataclass
+@attr.s(slots=True)
 class NewspaperPageAlto:
     fname: Union[str, Path]
     text: Optional[str]
@@ -231,16 +232,21 @@ def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory=None
 
     return Dataset.from_dict(batch)
 
-# %% ../01_europena.ipynb 60
+# %% ../01_europena.ipynb 61
+import multiprocessing 
+
 def process(
     xml_files: Iterable[Union[str, Path]],
     batch_size: int = 32,
     metadata_directory: Optional[str] = None,
+    max_workers: int = None
 ):
-    with tqdm(total=len(xml_files) // 64) as pbar:
+    with tqdm(total=len(xml_files) // batch_size) as pbar:
+        if not max_workers:
+            max_workers = multiprocessing.cpu_count()
         futures = []
-        with ProcessPoolExecutor(max_workers=8) as executor:
-            for batch in partition_all(64, xml_files):
+        with ProcessPoolExecutor(max_workers=max_workers) as executor:
+            for batch in partition_all(batch_size, xml_files):
                 batch = list(batch)
                 future = executor.submit(
                     process_batch, batch, metadata_directory=metadata_directory
@@ -248,3 +254,5 @@ def process(
                 future.add_done_callback(lambda p: pbar.update(1))
                 futures.append(future)
     return [future.result() for future in as_completed(futures)]
+
+
