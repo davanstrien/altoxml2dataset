@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.75">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Parsers for Europena newspapers">
+
+<title>alto2dataset - Europeana newspaper parsers</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: 1;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="alto2dataset - Europeana newspaper parsers">
+<meta property="og:description" content="Parsers for Europena newspapers">
+<meta property="og:site-name" content="alto2dataset">
+<meta name="twitter:title" content="alto2dataset - Europeana newspaper parsers">
+<meta name="twitter:description" content="Parsers for Europena newspapers">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">alto2dataset</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/davanstrien/alto2dataset/"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Europeana newspaper parsers</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">alto2dataset</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./core.html" class="sidebar-item-text sidebar-link">core</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./europena.html" class="sidebar-item-text sidebar-link active">Europeana newspaper parsers</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#alto-processing" id="toc-alto-processing" class="nav-link active" data-scroll-target="#alto-processing">ALTO Processing</a>
+  <ul>
+  <li><a href="#create-test-data" id="toc-create-test-data" class="nav-link" data-scroll-target="#create-test-data">Create test data</a></li>
+  </ul></li>
+  <li><a href="#parse-alto-xmls" id="toc-parse-alto-xmls" class="nav-link" data-scroll-target="#parse-alto-xmls">Parse ALTO XMLs</a>
+  <ul>
+  <li><a href="#alto_parse" id="toc-alto_parse" class="nav-link" data-scroll-target="#alto_parse">alto_parse</a></li>
+  <li><a href="#get_alto_text" id="toc-get_alto_text" class="nav-link" data-scroll-target="#get_alto_text">get_alto_text</a></li>
+  <li><a href="#alto_illustrations" id="toc-alto_illustrations" class="nav-link" data-scroll-target="#alto_illustrations">alto_illustrations</a></li>
+  </ul></li>
+  <li><a href="#newspaper-page-container" id="toc-newspaper-page-container" class="nav-link" data-scroll-target="#newspaper-page-container">Newspaper page container</a>
+  <ul>
+  <li><a href="#newspaperpagealto" id="toc-newspaperpagealto" class="nav-link" data-scroll-target="#newspaperpagealto">NewspaperPageAlto</a></li>
+  <li><a href="#parse_newspaper_page" id="toc-parse_newspaper_page" class="nav-link" data-scroll-target="#parse_newspaper_page">parse_newspaper_page</a></li>
+  </ul></li>
+  <li><a href="#get-metadata" id="toc-get-metadata" class="nav-link" data-scroll-target="#get-metadata">Get metadata</a>
+  <ul>
+  <li><a href="#newspaperpagemetadata" id="toc-newspaperpagemetadata" class="nav-link" data-scroll-target="#newspaperpagemetadata">NewspaperPageMetadata</a></li>
+  <li><a href="#get_metadata_from_xml" id="toc-get_metadata_from_xml" class="nav-link" data-scroll-target="#get_metadata_from_xml">get_metadata_from_xml</a></li>
+  </ul></li>
+  <li><a href="#linking-metadata-and-xml" id="toc-linking-metadata-and-xml" class="nav-link" data-scroll-target="#linking-metadata-and-xml">Linking metadata and XML</a>
+  <ul>
+  <li><a href="#get_metadata_for_page" id="toc-get_metadata_for_page" class="nav-link" data-scroll-target="#get_metadata_for_page">get_metadata_for_page</a></li>
+  </ul></li>
+  <li><a href="#issue-processor" id="toc-issue-processor" class="nav-link" data-scroll-target="#issue-processor">Issue processor</a>
+  <ul>
+  <li><a href="#newspaperpage" id="toc-newspaperpage" class="nav-link" data-scroll-target="#newspaperpage">NewspaperPage</a></li>
+  <li><a href="#process_newspaper_page" id="toc-process_newspaper_page" class="nav-link" data-scroll-target="#process_newspaper_page">process_newspaper_page</a></li>
+  </ul></li>
+  <li><a href="#load-into-datasets" id="toc-load-into-datasets" class="nav-link" data-scroll-target="#load-into-datasets">Load into datasets</a></li>
+  <li><a href="#dump-to-parquet" id="toc-dump-to-parquet" class="nav-link" data-scroll-target="#dump-to-parquet">Dump to parquet</a>
+  <ul>
+  <li><a href="#process_batch" id="toc-process_batch" class="nav-link" data-scroll-target="#process_batch">process_batch</a></li>
+  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">process</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/davanstrien/alto2dataset/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Europeana newspaper parsers</h1>
+</div>
+
+<div>
+  <div class="description">
+    Parsers for Europena newspapers
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->
+<p>The goal of this code is to create a pipeline for parsing the <a href="https://pro.europeana.eu/page/iiif#download">Europeana newspaper bulk downloads</a> and converting the orignal ALTO XML formats + metadata into a format that can be ingested easily into the 🤗 <a href="https://huggingface.co/docs/datasets/index">datasets</a> library and cons</p>
+<p>for #BigLAM. This code is mostly colated from other places. We used <a href="https://nbdev.fast.ai/">nbdev</a> to give our code some:</p>
+<ul>
+<li>basic tests</li>
+<li>some basic documentation</li>
+<li>make it easily instalable as a Python package.</li>
+</ul>
+<p><strong>note</strong> some of these parsers are likely to be more generic but we’ll develop them for europena newspapers for now. Once they have been tested on other collections they may be moved to a core module.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># %load_ext rich</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="alto-processing" class="level2">
+<h2 class="anchored" data-anchor-id="alto-processing">ALTO Processing</h2>
+<p>ALTO is an XML format commonly used to store the outout of Opitcal Character Recogniton software.</p>
+<section id="create-test-data" class="level3">
+<h3 class="anchored" data-anchor-id="create-test-data">Create test data</h3>
+<p>A small amount of test data is included in the repository and versioned with Git. To avoid bloating the repository too much the below cell can either be run as part of test (including) slow tests or run locally to give oneself a bigger amount of data to test methods with.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># # |slow</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># !mkdir test_data</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># !aria2c -x 4 -d test_data/ ftp://download.europeana.eu/newspapers/fulltext/alto/9200396.zip</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># !unzip test_data/*.zip -d test_data/</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># !rm test_data/*.zip</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co"># !mkdir test_data/metadata</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># !aria2c -x 4 -d test_data/metadata/ ftp://download.europeana.eu/newspapers/metadata/9200396.zip</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># !unzip test_data/metadata/*.zip -d test_data/metadata/</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># !rm test_data/metadata/*.zip</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>alto_xmls <span class="op">=</span> [f <span class="cf">for</span> f <span class="kw">in</span> Path(<span class="st">"test_data"</span>).rglob(<span class="st">"*.xml"</span>) <span class="cf">if</span> <span class="st">"edm"</span> <span class="kw">not</span> <span class="kw">in</span> f.name]</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(alto_xmls)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>106562</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="parse-alto-xmls" class="level2">
+<h2 class="anchored" data-anchor-id="parse-alto-xmls">Parse ALTO XMLs</h2>
+<p>The first step is to parse the xml file from disk into a elementree that we can use for other takss stolen from; https://github.com/cneud/alto-tools/blob/master/alto_tools.py</p>
+<hr>
+<section id="alto_parse" class="level3">
+<h3 class="anchored" data-anchor-id="alto_parse">alto_parse</h3>
+<blockquote class="blockquote">
+<pre><code> alto_parse (alto:Union[str,pathlib.Path], **kwargs)</code></pre>
+</blockquote>
+<p>Convert ALTO xml file to element tree</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>alto_xmls[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>Path('test_data/9200396/BibliographicResource_3000118436002/88.xml')</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>fname, xml, ns <span class="op">=</span> alto_parse(alto_xmls[<span class="dv">0</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">all</span>([fname, xml, ns])</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>Path(<span class="st">"fake.xml"</span>).touch(exist_ok<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>bad_xml <span class="op">=</span> alto_parse(Path(<span class="st">"fake.xml"</span>))</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># assert isinstance(bad_xml, None)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>2022-08-18 12:11:06.762 | ERROR    | __main__:alto_parse:7 - Parser Error in file 'fake.xml': no element found: line 1, column 0</code></pre>
+</div>
+</div>
+<hr>
+</section>
+<section id="get_alto_text" class="level3">
+<h3 class="anchored" data-anchor-id="get_alto_text">get_alto_text</h3>
+<blockquote class="blockquote">
+<pre><code> get_alto_text (xml, xmlns, join_lines=True)</code></pre>
+</blockquote>
+<p>Extract text content from ALTO xml file</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>text, wc, std_ocr <span class="op">=</span> get_alto_text(xml, ns)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">all</span>([text, wc, std_ocr])</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(text, <span class="bu">str</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(wc, <span class="bu">float</span>)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(std_ocr, <span class="bu">float</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<hr>
+</section>
+<section id="alto_illustrations" class="level3">
+<h3 class="anchored" data-anchor-id="alto_illustrations">alto_illustrations</h3>
+<blockquote class="blockquote">
+<pre><code> alto_illustrations (xml, xmlns)</code></pre>
+</blockquote>
+<p>Extract bounding boxes of illustration from ALTO xml file</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>alto_illustrations(xml, ns)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>[]</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_illustrations(xmls):</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> xmls:</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(<span class="bu">file</span>, <span class="st">"r"</span>) <span class="im">as</span> f:</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> line <span class="kw">in</span> f:</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="st">"Illustration"</span> <span class="kw">in</span> line:</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">yield</span> <span class="bu">file</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">break</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> toolz <span class="im">import</span> take</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>illustration_xmls <span class="op">=</span> <span class="bu">list</span>(take(<span class="dv">10</span>, get_illustrations(alto_xmls)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>illustration_xmls</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>[Path('test_data/9200396/BibliographicResource_3000118436002/1.xml'),
+ Path('test_data/9200396/BibliographicResource_3000118435687/76.xml'),
+ Path('test_data/9200396/BibliographicResource_3000118435687/3.xml'),
+ Path('test_data/9200396/BibliographicResource_3000118435687/1.xml'),
+ Path('test_data/9200396/BibliographicResource_3000118436230/76.xml'),
+ Path('test_data/9200396/BibliographicResource_3000118436230/9.xml'),
+ Path('test_data/9200396/BibliographicResource_3000118436230/20.xml'),
+ Path('test_data/9200396/BibliographicResource_3000118436230/33.xml'),
+ Path('test_data/9200396/BibliographicResource_3000118436230/32.xml'),
+ Path('test_data/9200396/BibliographicResource_3000118436230/1.xml')]</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> illustration_xmls:</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    fname, xml, ns <span class="op">=</span> alto_parse(<span class="bu">file</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    bounding_boxes <span class="op">=</span> alto_illustrations(xml, ns)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span> bounding_boxes</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> box <span class="kw">in</span> bounding_boxes:</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">assert</span> <span class="bu">isinstance</span>(box, <span class="bu">list</span>)</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">assert</span> <span class="bu">len</span>(box) <span class="op">==</span> <span class="dv">4</span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">assert</span> <span class="bu">all</span>(<span class="bu">isinstance</span>(x, <span class="bu">float</span>) <span class="cf">for</span> x <span class="kw">in</span> box)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="newspaper-page-container" class="level2">
+<h2 class="anchored" data-anchor-id="newspaper-page-container">Newspaper page container</h2>
+<hr>
+<section id="newspaperpagealto" class="level3">
+<h3 class="anchored" data-anchor-id="newspaperpagealto">NewspaperPageAlto</h3>
+<blockquote class="blockquote">
+<pre><code> NewspaperPageAlto (fname:Union[str,pathlib.Path], text:Optional[str],
+                    mean_ocr:Optional[float], std_ocr:Optional[float],
+                    bounding_boxes:List[Optional[float]])</code></pre>
+</blockquote>
+<p>Method generated by attrs for class NewspaperPageAlto.</p>
+<hr>
+</section>
+<section id="parse_newspaper_page" class="level3">
+<h3 class="anchored" data-anchor-id="parse_newspaper_page">parse_newspaper_page</h3>
+<blockquote class="blockquote">
+<pre><code> parse_newspaper_page (xml_fname:Union[str,pathlib.Path])</code></pre>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>page <span class="op">=</span> parse_newspaper_page(alto_xmls[<span class="dv">20</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> page</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(page, NewspaperPageAlto)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(page.text, (<span class="bu">str</span>, <span class="va">None</span>))</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(page.mean_ocr, (<span class="bu">float</span>, <span class="va">None</span>))</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(page.std_ocr, (<span class="bu">float</span>, <span class="va">None</span>))</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(page.bounding_boxes, List)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(page.item_id, <span class="bu">str</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>page</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>NewspaperPageAlto(fname=Path('test_data/9200396/BibliographicResource_3000118436002/9.xml'), text="ïg. Héctmlre . SSS du thrône &amp; de légiflation dans le roïaume, l’extinâion des guerres entre le Souverain &amp; les vaffaux , entre les provinces &amp; les provinces provinces ; qu’ainfi fans entrer dans les motifs à ne juger que par l’événementles croifa- des ont épargné à la nation plus de fang qu’elles n’en ont fait répandre, qu’elles ont pofé la bafe &amp; les fondemens de la tranquillité tranquillité intérieure de l’état. Je ne vous ferai pas remarquer que l’entreprife de Louis n’offroit point d’obftacles capables de ralentir fort ^ .courage &amp; d’alarmer fa fagefl'e; qu’on a voit vû Godefroy de Bouillon , avec les débris d’une armée, amas fortuit de diverfes nations, nations, élever dans Jérufalem un thrône qui, vainqueur des Mufulmans , n’a péri que par Autres les di vidons &amp; les perfidies des chrétiens, je réfl. fur les n’ajouterai point que Chypre, Conftantino- croifadesii pie, fournis à des princes de la communion A Q Q a lÂoûÊ latine, donnoit à Louis des facilités que n’eut , 77 g, p .. point Godefroid de Bouillon „. — 15. Déc, Le parallèle de Bajazet &amp; de St, Louis, P- qu’on lit dans le panégyrique de ce Saint, eft un tableau dont tous les traits concou rent au triomphe de la religion du faint Roi. Les . panégyriftes des héros turcs &amp; Chinois, ( &amp; i! y en a aujourd’hui un bien grand nombre ) font priés d’en faire un qui puiffe lérvir de pendant à celui-ci. “ Que le fe&amp;ateur de Mahomet déploie maintenant fes faites, il nous montrera l’Aile , l’Afrique, l’Afrique, l’Europe englouties par fes conquérons , &amp; le thrône de fes Califes élevé fur les ruines fie l’apivers j il nous piontrera donc ce courage courage", mean_ocr=0.5861000468510345, std_ocr=0.1977007715324908, bounding_boxes=[], item_id='9200396/BibliographicResource_3000118436002')</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="get-metadata" class="level2">
+<h2 class="anchored" data-anchor-id="get-metadata">Get metadata</h2>
+<p>The next step is to create some functionality to get metadata for the items. There are two possible ways we can do this: - via the metadata download dumps - via the Europena API</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>metadata_examples <span class="op">=</span> <span class="bu">list</span>(take(<span class="dv">500</span>, Path(<span class="st">"test_data"</span>).rglob(<span class="st">"*edm.xml"</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> datetime</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<hr>
+<section id="newspaperpagemetadata" class="level3">
+<h3 class="anchored" data-anchor-id="newspaperpagemetadata">NewspaperPageMetadata</h3>
+<blockquote class="blockquote">
+<pre><code> NewspaperPageMetadata (metadata_xml_fname:Union[str,pathlib.Path],
+                        title:Optional[str], issued:Optional[str],
+                        language:Union[List[str],str,NoneType],
+                        item_iiif_url:Optional[str],
+                        all_metadata_dict:Dict[Any,Any])</code></pre>
+</blockquote>
+<p>Method generated by attrs for class NewspaperPageMetadata.</p>
+<hr>
+</section>
+<section id="get_metadata_from_xml" class="level3">
+<h3 class="anchored" data-anchor-id="get_metadata_from_xml">get_metadata_from_xml</h3>
+<blockquote class="blockquote">
+<pre><code> get_metadata_from_xml (xml_file:Union[pathlib.Path,str])</code></pre>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>xml_file <span class="op">=</span> metadata_examples[<span class="op">-</span><span class="dv">23</span>]</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(xml_file, <span class="st">"r"</span>) <span class="im">as</span> f:</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>    xml <span class="op">=</span> xmltodict.parse(f.read())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> metadata_xml <span class="kw">in</span> metadata_examples:</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>    metadata <span class="op">=</span> get_metadata_from_xml(metadata_xml)</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span> metadata</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span> <span class="bu">isinstance</span>(metadata.language, (<span class="bu">list</span>, <span class="va">None</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="linking-metadata-and-xml" class="level2">
+<h2 class="anchored" data-anchor-id="linking-metadata-and-xml">Linking metadata and XML</h2>
+<p>We need to be able to link from the data we got from the ALTO XML with our metadata and smush them together. We have our <code>page.item_id</code> attribute which will hopefully be sufficient to grab the related metadata file.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>metadata.issued_parsed</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>datetime.datetime(1783, 6, 1, 0, 0)</code></pre>
+</div>
+</div>
+<hr>
+<section id="get_metadata_for_page" class="level3">
+<h3 class="anchored" data-anchor-id="get_metadata_for_page">get_metadata_for_page</h3>
+<blockquote class="blockquote">
+<pre><code> get_metadata_for_page (page:__main__.NewspaperPageAlto,
+                        metadata_directory:Optional[str]=None)</code></pre>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>metadata <span class="op">=</span> get_metadata_for_page(page, metadata_directory<span class="op">=</span><span class="st">"test_data/metadata"</span>)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> metadata</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">isinstance</span>(metadata, NewspaperPageMetadata)</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> page.item_id.split(<span class="st">"_"</span>)[<span class="op">-</span><span class="dv">1</span>] <span class="kw">in</span> metadata.metadata_xml_fname</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="issue-processor" class="level2">
+<h2 class="anchored" data-anchor-id="issue-processor">Issue processor</h2>
+<hr>
+<section id="newspaperpage" class="level3">
+<h3 class="anchored" data-anchor-id="newspaperpage">NewspaperPage</h3>
+<blockquote class="blockquote">
+<pre><code> NewspaperPage (fname:Union[str,pathlib.Path], text:Optional[str],
+                mean_ocr:Optional[float], std_ocr:Optional[float],
+                bounding_boxes:List[Optional[float]], item_id:str,
+                metadata_xml_fname:Union[str,pathlib.Path],
+                title:Optional[str], issued:Optional[str],
+                issued_parsed:Optional[datetime.datetime],
+                language:Optional[List[str]], item_iiif_url:Optional[str])</code></pre>
+</blockquote>
+<p>Method generated by attrs for class NewspaperPage.</p>
+<hr>
+</section>
+<section id="process_newspaper_page" class="level3">
+<h3 class="anchored" data-anchor-id="process_newspaper_page">process_newspaper_page</h3>
+<blockquote class="blockquote">
+<pre><code> process_newspaper_page (xml_file:Union[str,pathlib.Path],
+                         metadata_directory:Optional[str]=None)</code></pre>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">all</span>(</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>    process_newspaper_page(xml, metadata_directory<span class="op">=</span><span class="st">"test_data/metadata"</span>)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> xml <span class="kw">in</span> alto_xmls[:<span class="dv">32</span>]</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>process_newspaper_page(alto_xmls[<span class="dv">0</span>], metadata_directory<span class="op">=</span><span class="st">"test_data/metadata"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>NewspaperPage(fname='test_data/9200396/BibliographicResource_3000118436002/88.xml', text='Idem , par Mr***. en lui prifentent un exemplaire de fes fermons imprimés. 15. Décembre. Décembre. Voix {_ la), du vi ni patriote catholique, oppofée à celle des faux patriotes toltrans. 1. Septembre. 1 1 ■ladre parmi les Ombres, avec cette épigraphe: etgo erruvtmus &amp; errare fecimus. 1. Novembre. . . 332 Voltaire de retour des Ombres , &amp; fur le point d’y retourner pour n’en plus revenir l. Novembre. Page 57o 333 ’On fait favoir que les biens des ci devant Jéfuites de la niétaiîie à Kockellchcur à «ne lieue de cette ville, confftans ea maifocs, terres, prairies , étangs &amp; bois , partagés en dix-neuf lots , font à vendre , chaque lot féparé- ment ; que les amateurs d’un ou plulîeurs lots pourront s’adrefler au Receveur des Domaines Luxembourg Leonardy pendant le mois de Janvier prochain , &amp; faire leurs offres , après lequel mois écoulé l’on ne recevera plus aucune offie i &amp; que le 19e. de ce mois de Décembre, a s heures du matin &amp; jours fuivans, le dit Receveur vendra au dit Kockclfcheur tous les dirvaux foin, paille, &amp;. les meubles de ladite métairie .au plus offrant &amp; dernier enchérilleur, argent comptant. Luxembourg le ; Décembre 1773. CD bêtes à cornes &amp; autres beftianx &gt;', mean_ocr=0.44245891427834905, std_ocr=0.18921927369326655, bounding_boxes=[], item_id='9200396/BibliographicResource_3000118436002', metadata_xml_fname='test_data/metadata/http%3A%2F%2Fdata.theeuropeanlibrary.org%2FBibliographicResource%2F3000118436002.edm.xml', title='Journal historique et littéraire', issued='1776-12-15', issued_parsed=datetime.datetime(1776, 12, 15, 0, 0), language=['fr'], item_iiif_url='https://iiif.europeana.eu/image/2TS6TSUK5ULAT2TQMYN7UGBDCPKQBLHQPTPDD6GGYB4QOZXR72EQ/presentation_images/bc994340-0232-11e6-a696-fa163e2dd531/node-3/image/BNL/Journal_historique_et_littéraire/1776/12/15/00547/full/full/0/default.jpg', multi_language=False)</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="load-into-datasets" class="level2">
+<h2 class="anchored" data-anchor-id="load-into-datasets">Load into datasets</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>page <span class="op">=</span> process_newspaper_page(alto_xmls[<span class="dv">200</span>], metadata_directory<span class="op">=</span><span class="st">"test_data/metadata"</span>)</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>page</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>NewspaperPage(fname='test_data/9200396/BibliographicResource_3000118436230/38.xml', text="Journal hîfl. &amp; litt . licjri , régent de Lithuanie, —— regimens d’infanterie, qui font au nombre de 38 , doivent être portés à j 500 hommes, hommes, au lieu de 1200, dont ils étoient Compofcs ci'- devant ; lés pontonniers qui étoient de 608 hommes, en formeront 1000, ainfi que le corps d’artillerie ; pour cç dernier on n’admet que des gens inftruits &amp; qui ont achevé leurs études. La cavalerie- nationale s’accroît de jour en jour. Chaque régiment d’Oulans fera augmenté de 290 hommes. hommes. 'On entend par-tout les tambours annoncer annoncer la recrue, depuis environ 4 femaines, il nous eft arrive au-delà de 5000 des plus beaux hommes, la plupart déferteurs allemands. Jufqu’ici nous' ignorons abfolument l’objet d’une levée fi nombrenfe &amp; fi. extraordinaire. Dantzig (/e 3 Janvier. ) L’aflèmblée des trois Ordres de la ville , convoquée le c8 Décembre, en conféquence des ordres venus de Varfovie pour figner la convention relative relative à la navigation de la Viftule, fut prorogée prorogée au lendemain ; &amp; c’eft ce jour-là que les trois Ordres ont donné leur confentement unanime pour la fignature de cette convention. convention. Le magiftrat a fait informer de cette, réfolution M r . de Pfennig, commiffaire de Pologne, M r . de Péterfon , réfident de Ruf- fie, &amp; M r . de Lindenowski, réfident de Pruffe, avec priere d’en rendre compte à leurs cours refpeâives. Cependant le peuple en général général n’eft pas content, &amp; on craint que dans l’occafion il n’cclate en murmures &amp; peut- %re en tumultes féditieux. Tous nos", mean_ocr=0.5256414447269231, std_ocr=0.19060038635865742, bounding_boxes=[], item_id='9200396/BibliographicResource_3000118436230', metadata_xml_fname='test_data/metadata/http%3A%2F%2Fdata.theeuropeanlibrary.org%2FBibliographicResource%2F3000118436230.edm.xml', title='Journal historique et littéraire', issued='1785-02-01', issued_parsed=datetime.datetime(1785, 2, 1, 0, 0), language=['fr'], item_iiif_url='https://iiif.europeana.eu/image/NGJNELURKNAPK5EL35D32X3AV36I7Z2X67NW4OGTN3EEO7L5N6NA/presentation_images/b171fd00-0222-11e6-a696-fa163e2dd531/node-3/image/BNL/Journal_historique_et_littéraire/1785/02/01/00157/full/full/0/default.jpg', multi_language=False)</code></pre>
+</div>
+</div>
+</section>
+<section id="dump-to-parquet" class="level2">
+<h2 class="anchored" data-anchor-id="dump-to-parquet">Dump to parquet</h2>
+<hr>
+<section id="process_batch" class="level3">
+<h3 class="anchored" data-anchor-id="process_batch">process_batch</h3>
+<blockquote class="blockquote">
+<pre><code> process_batch (xml_batch:Iterable[Union[str,pathlib.Path]],
+                metadata_directory=None)</code></pre>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>ds <span class="op">=</span> process_batch(alto_xmls[:<span class="dv">32</span>], metadata_directory<span class="op">=</span><span class="st">"test_data/metadata"</span>)</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(ds) <span class="op">==</span> <span class="dv">32</span></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(ds.column_names) <span class="op">==</span> <span class="dv">13</span></span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> ds.column_names <span class="op">==</span> [</span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"fname"</span>,</span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"text"</span>,</span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"mean_ocr"</span>,</span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"std_ocr"</span>,</span>
+<span id="cb46-9"><a href="#cb46-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"bounding_boxes"</span>,</span>
+<span id="cb46-10"><a href="#cb46-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"item_id"</span>,</span>
+<span id="cb46-11"><a href="#cb46-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"metadata_xml_fname"</span>,</span>
+<span id="cb46-12"><a href="#cb46-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"title"</span>,</span>
+<span id="cb46-13"><a href="#cb46-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"issued"</span>,</span>
+<span id="cb46-14"><a href="#cb46-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"issued_parsed"</span>,</span>
+<span id="cb46-15"><a href="#cb46-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"language"</span>,</span>
+<span id="cb46-16"><a href="#cb46-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">"item_iiif_url"</span>,</span>
+<span id="cb46-17"><a href="#cb46-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">"multi_language"</span>,</span>
+<span id="cb46-18"><a href="#cb46-18" aria-hidden="true" tabindex="-1"></a>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>ds</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>Dataset({
+    features: ['fname', 'text', 'mean_ocr', 'std_ocr', 'bounding_boxes', 'item_id', 'metadata_xml_fname', 'title', 'issued', 'issued_parsed', 'language', 'item_iiif_url', 'multi_language'],
+    num_rows: 32
+})</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>ds.features</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>{'fname': Value(dtype='string', id=None),
+ 'text': Value(dtype='string', id=None),
+ 'mean_ocr': Value(dtype='float64', id=None),
+ 'std_ocr': Value(dtype='float64', id=None),
+ 'bounding_boxes': Sequence(feature=Sequence(feature=Value(dtype='float64', id=None), length=-1, id=None), length=-1, id=None),
+ 'item_id': Value(dtype='string', id=None),
+ 'metadata_xml_fname': Value(dtype='string', id=None),
+ 'title': Value(dtype='string', id=None),
+ 'issued': Value(dtype='string', id=None),
+ 'issued_parsed': Value(dtype='date64', id=None),
+ 'language': Sequence(feature=Value(dtype='string', id=None), length=-1, id=None),
+ 'item_iiif_url': Value(dtype='string', id=None),
+ 'multi_language': Value(dtype='bool', id=None)}</code></pre>
+</div>
+</div>
+<hr>
+</section>
+<section id="process" class="level3">
+<h3 class="anchored" data-anchor-id="process">process</h3>
+<blockquote class="blockquote">
+<pre><code> process (xml_files:Iterable[Union[str,pathlib.Path]], batch_size:int=32,
+          metadata_directory:Union[pathlib.Path,str,NoneType]=None,
+          max_workers:Optional[int]=None)</code></pre>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>datasets <span class="op">=</span> process(alto_xmls[:<span class="dv">10</span>], metadata_directory<span class="op">=</span><span class="st">"test_data/metadata"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"1d85da29ae2d43c580b96a73ae95c20a","version_major":2,"version_minor":0}
+</script>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> concatenate_datasets</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>dataset <span class="op">=</span> concatenate_datasets(datasets)</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>dataset</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>Dataset({
+    features: ['fname', 'text', 'mean_ocr', 'std_ocr', 'bounding_boxes', 'item_id', 'metadata_xml_fname', 'title', 'issued', 'issued_parsed', 'language', 'item_iiif_url', 'multi_language'],
+    num_rows: 10
+})</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
