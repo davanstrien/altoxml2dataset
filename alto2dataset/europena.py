@@ -11,7 +11,6 @@ import os
 import xml
 import xml.etree.ElementTree as ET
 from concurrent.futures import ProcessPoolExecutor, as_completed
-# from dataclaises import asdict, dataclass, field
 from functools import lru_cache
 from pathlib import Path
 from statistics import mean, stdev
@@ -144,16 +143,16 @@ class NewspaperPageMetadata:
     metadata_xml_fname: Union[str, Path]
     title: Optional[str]
     date: Optional[str]
-    languages: Union[List[str], str, None]
+    language: Union[List[str], str, None]
     item_iiif_url: Optional[str]
     all_metadata_dict: Dict[Any, Any]
 
     def __attrs_post_init__(self):
-        self.languages = (
-            self.languages.split(",")
-            if isinstance(self.languages, str)
-            else self.languages
-        )
+        self.language = (
+            self.language.split(",")
+            if isinstance(self.language, str)
+            else self.language)
+        
         self.title = self.title.split("-")[0].strip(" ")
         self.metadata_xml_fname = str(self.metadata_xml_fname)
 
@@ -165,11 +164,11 @@ def get_metadata_from_xml(xml_file: Union[Path, str]):
     ProvidedCHO = metadata["edm:ProvidedCHO"]
     title = ProvidedCHO["dc:title"]
     data = ProvidedCHO["dcterms:issued"]
-    languages = ProvidedCHO["dc:language"]
+    language = ProvidedCHO["dc:language"]
     iiif_url = metadata["ore:Aggregation"]["edm:isShownBy"]["@rdf:resource"]
-    return NewspaperPageMetadata(xml_file, title, data, languages, iiif_url, metadata)
+    return NewspaperPageMetadata(xml_file, title, data, language, iiif_url, metadata)
 
-# %% ../01_europena.ipynb 40
+# %% ../01_europena.ipynb 42
 def get_metadata_for_page(
     page: NewspaperPageAlto, metadata_directory: Optional[str] = None
 ):
@@ -177,7 +176,7 @@ def get_metadata_for_page(
     metadata_xml = f"{metadata_directory}/http%3A%2F%2Fdata.theeuropeanlibrary.org%2FBibliographicResource%2F{short_id}.edm.xml"
     return get_metadata_from_xml(metadata_xml)
 
-# %% ../01_europena.ipynb 43
+# %% ../01_europena.ipynb 45
 @define(slots=True)
 class NewspaperPage:
     fname: Union[str, Path]
@@ -189,7 +188,7 @@ class NewspaperPage:
     metadata_xml_fname: Union[str, Path]
     title: Optional[str]
     date: Optional[str]
-    languages: Union[List[str], None]
+    language: Union[List[str], None]
     item_iiif_url: Optional[str]
     # all_metadata_dict: Dict[Any, Any]
     multi_language: bool = field(init=False)
@@ -197,16 +196,16 @@ class NewspaperPage:
     def __attrs_post_init__(self):
         self.fname = str(self.fname)
         self.metadata_xml_fname = str(self.metadata_xml_fname)
-        self.languages = (
-            [lang for lang in self.languages if lang != "=="]
-            if isinstance(self.languages, list)
-            else self.languages
+        self.language = (
+            [lang for lang in self.language if lang != "=="]
+            if isinstance(self.language, list)
+            else self.language
         )
         self.multi_language = (
-            isinstance(self.languages, list) and len(self.languages) > 1
+            isinstance(self.language, list) and len(self.language) > 1
         )
 
-# %% ../01_europena.ipynb 44
+# %% ../01_europena.ipynb 46
 def process_newspaper_page(
     xml_file: Union[str, Path], metadata_directory: Optional[str] = None
 ) -> Dict[Any, Any]:
@@ -217,11 +216,11 @@ def process_newspaper_page(
     page = asdict(page)
     return NewspaperPage(**page, **metadata)
 
-# %% ../01_europena.ipynb 50
+# %% ../01_europena.ipynb 52
 from datasets import Dataset
 from datasets import Value, Sequence, Features
 
-# %% ../01_europena.ipynb 51
+# %% ../01_europena.ipynb 53
 features=Features({
     'fname': Value(dtype='string', id=None),
     'text': Value(dtype='string', id=None),
@@ -236,13 +235,13 @@ features=Features({
     'metadata_xml_fname': Value(dtype='string', id=None),
     'title': Value(dtype='string', id=None),
     'date': Value(dtype='string', id=None),
-    'languages': Sequence(feature=Value(dtype='string', id=None), length=-1, id=None),
+    'language': Sequence(feature=Value(dtype='string', id=None), length=-1, id=None),
     'item_iiif_url': Value(dtype='string', id=None),
     'multi_language': Value(dtype='bool', id=None)
 })
 
 
-# %% ../01_europena.ipynb 52
+# %% ../01_europena.ipynb 54
 @logger.catch()
 def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory=None):
     batch = [
@@ -254,7 +253,7 @@ def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory=None
 
     return Dataset.from_dict(batch,features=features)
 
-# %% ../01_europena.ipynb 55
+# %% ../01_europena.ipynb 57
 import multiprocessing 
 
 def process(
@@ -276,5 +275,3 @@ def process(
                 future.add_done_callback(lambda p: pbar.update(1))
                 futures.append(future)
     return [future.result() for future in as_completed(futures)]
-
-
