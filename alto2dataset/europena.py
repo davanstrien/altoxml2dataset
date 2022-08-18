@@ -142,7 +142,7 @@ def parse_newspaper_page(xml_fname: Union[str, Path]):
 class NewspaperPageMetadata:
     metadata_xml_fname: Union[str, Path]
     title: Optional[str]
-    date: Optional[str]
+    issued: Optional[str]
     language: Union[List[str], str, None]
     item_iiif_url: Optional[str]
     all_metadata_dict: Dict[Any, Any]
@@ -187,7 +187,7 @@ class NewspaperPage:
     item_id: str
     metadata_xml_fname: Union[str, Path]
     title: Optional[str]
-    date: Optional[str]
+    issued: Optional[str]
     language: Union[List[str], None]
     item_iiif_url: Optional[str]
     # all_metadata_dict: Dict[Any, Any]
@@ -234,7 +234,7 @@ features=Features({
     'item_id': Value(dtype='string', id=None),
     'metadata_xml_fname': Value(dtype='string', id=None),
     'title': Value(dtype='string', id=None),
-    'date': Value(dtype='string', id=None),
+    'issued': Value(dtype='string', id=None),
     'language': Sequence(feature=Value(dtype='string', id=None), length=-1, id=None),
     'item_iiif_url': Value(dtype='string', id=None),
     'multi_language': Value(dtype='bool', id=None)
