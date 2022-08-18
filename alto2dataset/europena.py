@@ -137,7 +137,7 @@ def parse_newspaper_page(xml_fname: Union[str, Path]):
     bounding_boxes = alto_illustrations(xml, ns)
     return NewspaperPageAlto(xml_fname, text, wc, std_ocr, bounding_boxes)
 
-# %% ../01_europena.ipynb 34
+# %% ../01_europena.ipynb 36
 @define(slots=True)
 class NewspaperPageMetadata:
     metadata_xml_fname: Union[str, Path]
@@ -146,27 +146,37 @@ class NewspaperPageMetadata:
     language: Union[List[str], str, None]
     item_iiif_url: Optional[str]
     all_metadata_dict: Dict[Any, Any]
+    issued_parsed: datetime = field(init=False)
+
+    def _parse_date(self, issued):
+        try:
+            date = datetime.strptime(issued, "%Y-%m-%d")
+            return date
+        except ValueError:
+            return None
 
     def __attrs_post_init__(self):
         self.language = (
             self.language.split(",")
             if isinstance(self.language, str)
-            else self.language)
-        
+            else self.language
+        )
+
         self.title = self.title.split("-")[0].strip(" ")
         self.metadata_xml_fname = str(self.metadata_xml_fname)
+        self.issued_parsed = self._parse_date(self.issued)
 
-# %% ../01_europena.ipynb 35
+# %% ../01_europena.ipynb 37
 def get_metadata_from_xml(xml_file: Union[Path, str]):
     with open(xml_file, "r") as f:
         xml = xmltodict.parse(f.read())
     metadata = xml["rdf:RDF"]
     ProvidedCHO = metadata["edm:ProvidedCHO"]
     title = ProvidedCHO["dc:title"]
-    data = ProvidedCHO["dcterms:issued"]
+    issued = ProvidedCHO["dcterms:issued"]
     language = ProvidedCHO["dc:language"]
     iiif_url = metadata["ore:Aggregation"]["edm:isShownBy"]["@rdf:resource"]
-    return NewspaperPageMetadata(xml_file, title, data, language, iiif_url, metadata)
+    return NewspaperPageMetadata(xml_file, title, issued, language, iiif_url, metadata)
 
 # %% ../01_europena.ipynb 42
 def get_metadata_for_page(
@@ -188,6 +198,7 @@ class NewspaperPage:
     metadata_xml_fname: Union[str, Path]
     title: Optional[str]
     issued: Optional[str]
+    issued_parsed: Optional[datetime]
     language: Union[List[str], None]
     item_iiif_url: Optional[str]
     # all_metadata_dict: Dict[Any, Any]
@@ -201,9 +212,7 @@ class NewspaperPage:
             if isinstance(self.language, list)
             else self.language
         )
-        self.multi_language = (
-            isinstance(self.language, list) and len(self.language) > 1
-        )
+        self.multi_language = isinstance(self.language, list) and len(self.language) > 1
 
 # %% ../01_europena.ipynb 46
 def process_newspaper_page(
@@ -221,25 +230,31 @@ from datasets import Dataset
 from datasets import Value, Sequence, Features
 
 # %% ../01_europena.ipynb 53
-features=Features({
-    'fname': Value(dtype='string', id=None),
-    'text': Value(dtype='string', id=None),
-    'mean_ocr': Value(dtype='float64', id=None),
-    'std_ocr': Value(dtype='float64', id=None),
-    'bounding_boxes': Sequence(
-        feature=Sequence(feature=Value(dtype='float64', id=None), length=-1, id=None),
-        length=-1,
-        id=None
-    ),
-    'item_id': Value(dtype='string', id=None),
-    'metadata_xml_fname': Value(dtype='string', id=None),
-    'title': Value(dtype='string', id=None),
-    'issued': Value(dtype='string', id=None),
-    'language': Sequence(feature=Value(dtype='string', id=None), length=-1, id=None),
-    'item_iiif_url': Value(dtype='string', id=None),
-    'multi_language': Value(dtype='bool', id=None)
-})
-
+features = Features(
+    {
+        "fname": Value(dtype="string", id=None),
+        "text": Value(dtype="string", id=None),
+        "mean_ocr": Value(dtype="float64", id=None),
+        "std_ocr": Value(dtype="float64", id=None),
+        "bounding_boxes": Sequence(
+            feature=Sequence(
+                feature=Value(dtype="float64", id=None), length=-1, id=None
+            ),
+            length=-1,
+            id=None,
+        ),
+        "item_id": Value(dtype="string", id=None),
+        "metadata_xml_fname": Value(dtype="string", id=None),
+        "title": Value(dtype="string", id=None),
+        "issued": Value(dtype="string", id=None),
+        "issued_parsed": Value(dtype="date64", id=None),
+        "language": Sequence(
+            feature=Value(dtype="string", id=None), length=-1, id=None
+        ),
+        "item_iiif_url": Value(dtype="string", id=None),
+        "multi_language": Value(dtype="bool", id=None),
+    }
+)
 
 # %% ../01_europena.ipynb 54
 @logger.catch()
@@ -251,16 +266,17 @@ def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory=None
 
     batch = {key: [i[key] for i in batch] for key in batch[0]}
 
-    return Dataset.from_dict(batch,features=features)
+    return Dataset.from_dict(batch, features=features)
 
-# %% ../01_europena.ipynb 57
-import multiprocessing 
+# %% ../01_europena.ipynb 58
+import multiprocessing
+
 
 def process(
     xml_files: Iterable[Union[str, Path]],
     batch_size: int = 32,
-    metadata_directory: Optional[Union[str,Path]] = None,
-    max_workers: Optional[int] = None
+    metadata_directory: Optional[Union[str, Path]] = None,
+    max_workers: Optional[int] = None,
 ):
     with tqdm(total=len(xml_files) // batch_size) as pbar:
         if not max_workers:
