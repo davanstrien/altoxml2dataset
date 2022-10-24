@@ -7,7 +7,7 @@ from tqdm.auto import tqdm
 
 from alto2dataset.europena import *
 
-europena_ids = [9200396, 9200301]
+europena_ids = [9200396, 9200301, 9200300, 9200339, 9200355, 9200356, 9200357, 9200396]
 
 all_datasets = []
 Path("altodata").mkdir(exist_ok=True)
