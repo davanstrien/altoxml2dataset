@@ -19,6 +19,8 @@ for id_ in tqdm(europena_ids):
             "aria2c",
             "-x",
             "4",
+            "-j",
+            "4",
             "-d",
             "altodata/",
             f"ftp://download.europeana.eu/newspapers/fulltext/alto/{id_}.zip",
@@ -30,6 +32,8 @@ for id_ in tqdm(europena_ids):
         [
             "aria2c",
             "-x",
+            "4",
+            "-j",
             "4",
             "-d",
             "altodata/metadata/",
