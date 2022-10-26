@@ -160,13 +160,19 @@ class NewspaperPageMetadata:
 # %% ../01_europena.ipynb 34
 def get_metadata_from_xml(xml_file: Union[Path, str]):
     with open(xml_file, "r") as f:
-        xml = xmltodict.parse(f.read())
-    metadata = xml["rdf:RDF"]
-    ProvidedCHO = metadata["edm:ProvidedCHO"]
-    title = ProvidedCHO["dc:title"]
-    data = ProvidedCHO["dcterms:issued"]
-    languages = ProvidedCHO["dc:language"]
-    iiif_url = metadata["ore:Aggregation"]["edm:isShownBy"]["@rdf:resource"]
+        xml: Dict = xmltodict.parse(f.read())
+    metadata = xml.get("rdf:RDF")
+    ProvidedCHO = metadata.get("edm:ProvidedCHO")
+    if ProvidedCHO is not None:
+        title = ProvidedCHO.get("dc:title")
+        data = ProvidedCHO.get("dcterms:issued")
+        languages = ProvidedCHO.get("dc:language")
+        try:
+            iiif_url = metadata["ore:Aggregation"]["edm:isShownBy"]["@rdf:resource"]
+        except KeyError:
+            iiif_url = None
+    else:
+        title, data, languages, iiif_url = None, None, None, None
     return NewspaperPageMetadata(xml_file, title, data, languages, iiif_url, metadata)
 
 # %% ../01_europena.ipynb 38
@@ -177,7 +183,7 @@ def get_metadata_for_page(
     metadata_xml = f"{metadata_directory}/http%3A%2F%2Fdata.theeuropeanlibrary.org%2FBibliographicResource%2F{short_id}.edm.xml"
     return get_metadata_from_xml(metadata_xml)
 
-# %% ../01_europena.ipynb 41
+# %% ../01_europena.ipynb 42
 @define(slots=True)
 class NewspaperPage:
     fname: Union[str, Path]
@@ -191,7 +197,7 @@ class NewspaperPage:
     date: Optional[str]
     languages: Union[List[str], None]
     item_iiif_url: Optional[str]
-    # all_metadata_dict: Dict[Any, Any]
+   # all_metadata_dict: Dict[Any, Any]
     multi_language: bool = field(init=False)
     issue_uri: str = field(init=False)
     id: str = field(init=False)
@@ -208,7 +214,7 @@ class NewspaperPage:
         )
         self.id = f"{self.issue_uri}/${self.fname.name.strip('.xml')}"
 
-# %% ../01_europena.ipynb 42
+# %% ../01_europena.ipynb 43
 def process_newspaper_page(
     xml_file: Union[str, Path], metadata_directory: Optional[str] = None
 ) -> Dict[Any, Any]:
@@ -219,11 +225,11 @@ def process_newspaper_page(
     page = asdict(page)
     return NewspaperPage(**page, **metadata)
 
-# %% ../01_europena.ipynb 47
+# %% ../01_europena.ipynb 48
 from datasets import Dataset
 from datasets import Value, Sequence, Features
 
-# %% ../01_europena.ipynb 48
+# %% ../01_europena.ipynb 49
 features=Features({
     'fname': Value(dtype='string', id=None),
     'text': Value(dtype='string', id=None),
@@ -242,11 +248,12 @@ features=Features({
     'date': Value(dtype='string', id=None),
     'languages': Sequence(feature=Value(dtype='string', id=None), length=-1, id=None),
     'item_iiif_url': Value(dtype='string', id=None),
-    'multi_language': Value(dtype='bool', id=None)
+    'multi_language': Value(dtype='bool', id=None),
+   
 })
 
 
-# %% ../01_europena.ipynb 51
+# %% ../01_europena.ipynb 52
 @logger.catch()
 def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory: Optional[Union[str,Path]]=None)-> Dataset:
     """Returns a dataset containing parsed newspaper pages."""
@@ -261,7 +268,7 @@ def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory: Opt
     return dataset
 
 
-# %% ../01_europena.ipynb 55
+# %% ../01_europena.ipynb 56
 import multiprocessing 
 
 def process(
