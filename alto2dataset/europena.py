@@ -16,7 +16,9 @@ from functools import lru_cache
 from pathlib import Path
 from statistics import mean, stdev
 from attrs import asdict
-
+import toolz
+import itertools
+import  multiprocessing
 from typing import Any, Dict, Iterable, List, Optional, Union
 from attrs import define, field
 
@@ -217,7 +219,7 @@ class NewspaperPage:
 # %% ../01_europena.ipynb 43
 def process_newspaper_page(
     xml_file: Union[str, Path], metadata_directory: Optional[str] = None
-) -> Dict[Any, Any]:
+) -> NewspaperPage:
     page = parse_newspaper_page(xml_file)
     metadata = get_metadata_for_page(page, metadata_directory=metadata_directory)
     metadata = asdict(metadata)
@@ -269,15 +271,15 @@ def process_batch(xml_batch: Iterable[Union[str, Path]], metadata_directory: Opt
 
 
 # %% ../01_europena.ipynb 56
-import multiprocessing 
-
 def process(
     xml_files: Iterable[Union[str, Path]],
     batch_size: int = 32,
     metadata_directory: Optional[Union[str,Path]] = None,
     max_workers: Optional[int] = None
 ):
-    with tqdm(total=len(xml_files) // batch_size) as pbar:
+    xml_files_for_count, xml_files = itertools.tee(xml_files)
+    total = toolz.count(xml_files_for_count)
+    with tqdm(total=total // batch_size) as pbar:
         if not max_workers:
             max_workers = multiprocessing.cpu_count()
         futures = []
