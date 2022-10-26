@@ -38,7 +38,7 @@ for id_ in tqdm(europena_ids):
     )
     subprocess.call(["unzip", "altodata/metadata/*.zip", "-d", "altodata/metadata/"])
     [p.unlink() for p in Path("altodata/metadata").rglob("*.zip")]
-    alto_xmls = [f for f in Path("altodata").rglob("*.xml") if "edm" not in f.name]
+    alto_xmls = (f for f in Path("altodata").rglob("*.xml") if "edm" not in f.name)
     datasets = process(
         alto_xmls, batch_size=8, metadata_directory="altodata/metadata", max_workers=4
     )
