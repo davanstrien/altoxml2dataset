@@ -7,7 +7,8 @@ from tqdm.auto import tqdm
 
 from alto2dataset.europena import *
 
-europena_ids = [9200396, 9200301, 9200300, 9200339, 9200355, 9200356, 9200357, 9200396]
+europena_ids = {9200300, 9200338, 9200339, 9200355, 9200356, 9200357, 9200301, 9200396}
+
 
 all_datasets = []
 Path("altodata").mkdir(exist_ok=True)
@@ -38,7 +39,9 @@ for id_ in tqdm(europena_ids):
     subprocess.call(["unzip", "altodata/metadata/*.zip", "-d", "altodata/metadata/"])
     [p.unlink() for p in Path("altodata/metadata").rglob("*.zip")]
     alto_xmls = [f for f in Path("altodata").rglob("*.xml") if "edm" not in f.name]
-    datasets = process(alto_xmls, metadata_directory="altodata/metadata")
+    datasets = process(
+        alto_xmls, batch_size=8, metadata_directory="altodata/metadata", max_workers=1
+    )
     dataset = concatenate_datasets(datasets)
     all_datasets.append(dataset)
     [p.unlink() for p in Path("altodata").rglob("*.xml")]
