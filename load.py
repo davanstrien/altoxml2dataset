@@ -46,6 +46,7 @@ for id_ in tqdm(europena_ids):
     all_datasets.append(dataset)
     [p.unlink() for p in Path("altodata").rglob("*.xml")]
 ds = concatenate_datasets(all_datasets)
+ds.save_to_disk("all_data")
 languages = set(concat(ds["language"]))
 decades = {f"{d[:3]}0" for d in ds["date"]}
 multi_language_ds = ds.filter(lambda x: x["multi_language"] == True)
