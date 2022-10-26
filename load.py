@@ -40,9 +40,16 @@ for id_ in tqdm(europena_ids):
     [p.unlink() for p in Path("altodata/metadata").rglob("*.zip")]
     alto_xmls = [f for f in Path("altodata").rglob("*.xml") if "edm" not in f.name]
     datasets = process(
-        alto_xmls, batch_size=8, metadata_directory="altodata/metadata", max_workers=1
+        alto_xmls, batch_size=8, metadata_directory="altodata/metadata", max_workers=4
     )
-    dataset = concatenate_datasets(datasets)
+    not_none_datasets = []
+    for dataset in datasets:
+        if dataset is not None:
+            not_none_datasets.append(dataset)
+        else:
+            print("None found in batch")
+    dataset = concatenate_datasets(not_none_datasets)
+
     all_datasets.append(dataset)
     [p.unlink() for p in Path("altodata").rglob("*.xml")]
 ds = concatenate_datasets(all_datasets)
