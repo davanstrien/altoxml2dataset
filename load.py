@@ -31,7 +31,7 @@ for id_ in tqdm(europena_ids):
         ]
     )
     print("unzip....")
-    subprocess.call(["unzip", "altodata/*.zip", "-d", "altodata", "-q"])
+    subprocess.call(["unzip", "-q", "altodata/*.zip", "-d", "altodata"])
     [p.unlink() for p in Path("altodata").rglob("*.zip")]
     subprocess.call(
         [
@@ -47,7 +47,13 @@ for id_ in tqdm(europena_ids):
     )
     print("unzip....")
     subprocess.call(
-        ["unzip", "altodata/metadata/*.zip", "-d", "altodata/metadata/", "-q"]
+        [
+            "unzip",
+            "-q",
+            "altodata/metadata/*.zip",
+            "-d",
+            "altodata/metadata/",
+        ]
     )
     [p.unlink() for p in Path("altodata/metadata").rglob("*.zip")]
     alto_xmls = (f for f in Path("altodata").rglob("*.xml") if "edm" not in f.name)
