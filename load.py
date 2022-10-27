@@ -10,7 +10,7 @@ from tqdm.auto import tqdm
 from alto2dataset.europena import *
 
 # 9200300
-europena_ids = {9200396, 9200357, 9200339, 9200355, 9200356, 9200301, 9200338}
+europena_ids = [9200396, 9200357, 9200339, 9200355, 9200356, 9200301, 9200338]
 
 
 all_datasets = []
