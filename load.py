@@ -18,6 +18,8 @@ Path("altodata").mkdir(exist_ok=True)
 Path("altodata/metadata").mkdir(exist_ok=True)
 for id_ in tqdm(europena_ids):
     print(id_)
+    if Path(f"{id}.parquet").exists():
+        continue
     subprocess.call(
         [
             "aria2c",
@@ -58,7 +60,10 @@ for id_ in tqdm(europena_ids):
     [p.unlink() for p in Path("altodata/metadata").rglob("*.zip")]
     alto_xmls = (f for f in Path("altodata").rglob("*.xml") if "edm" not in f.name)
     datasets = process(
-        alto_xmls, batch_size=8, metadata_directory="altodata/metadata", max_workers=4
+        alto_xmls,
+        batch_size=8,
+        metadata_directory="altodata/metadata",
+        max_workers=4,
     )
     not_none_datasets = []
     for dataset in datasets:
