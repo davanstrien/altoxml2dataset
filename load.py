@@ -2,12 +2,15 @@ import subprocess
 from pathlib import Path
 
 from datasets import concatenate_datasets
+from datasets import load_dataset
+import datasets
 from toolz import concat
 from tqdm.auto import tqdm
 
 from alto2dataset.europena import *
 
-europena_ids = {9200300, 9200338, 9200339, 9200355, 9200356, 9200357, 9200301, 9200396}
+# 9200300
+europena_ids = {9200396, 9200357, 9200339, 9200355, 9200356, 9200301, 9200338}
 
 
 all_datasets = []
@@ -57,10 +60,10 @@ for id_ in tqdm(europena_ids):
         else:
             print("None found in batch")
     dataset = concatenate_datasets(not_none_datasets)
-
-    all_datasets.append(dataset)
+    dataset.to_parquet(f"{id_}.parquet")
     [p.unlink() for p in Path("altodata").rglob("*.xml")]
-ds = concatenate_datasets(all_datasets)
+parquet_files = Path(".").rglob("*.parquet")
+ds = datasets.Dataset.from_parquet(list(parquet_files))
 ds.save_to_disk("all_data")
 languages = set(concat(ds["language"]))
 decades = {f"{d[:3]}0" for d in ds["date"]}
