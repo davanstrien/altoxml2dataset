@@ -17,6 +17,7 @@ all_datasets = []
 Path("altodata").mkdir(exist_ok=True)
 Path("altodata/metadata").mkdir(exist_ok=True)
 for id_ in tqdm(europena_ids):
+    print(id_)
     subprocess.call(
         [
             "aria2c",
