@@ -75,6 +75,7 @@ for id_ in tqdm(europena_ids):
     dataset.to_parquet(f"{id_}.parquet")
     [p.unlink() for p in Path("altodata").rglob("*.xml")]
 parquet_files = Path(".").rglob("*.parquet")
+parquet_files = [str(f) for f in parquet_files]
 ds = datasets.Dataset.from_parquet(parquet_files)
 ds.save_to_disk("all_data")
 languages = ds["language"]
