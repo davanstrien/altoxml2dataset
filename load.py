@@ -5,7 +5,7 @@ from datasets import concatenate_datasets
 from datasets import load_dataset
 import datasets
 from toolz import concat
-from tqdm.auto import tqdm
+from tqdm import tqdm
 
 from alto2dataset.europena import *
 
