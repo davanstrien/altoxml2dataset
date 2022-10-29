@@ -80,9 +80,11 @@ ds.save_to_disk("all_data")
 languages = ds["language"]
 languages = (language for language in languages if language is not None)
 languages = set(concat(languages))
+print(languages)
 decades = {f"{d[:3]}0" for d in ds["date"]}
 multi_language_ds = ds.filter(lambda x: x["multi_language"] == True)
 single_language_ds = ds.filter(lambda x: x["multi_language"] == False)
+no_language_found_ds = ds.filter(lambda x: x["language"] is None)
 for language in tqdm(languages):
     lang_ds = single_language_ds.filter(lambda x: language in x["language"])
     for decade in tqdm(decades, leave=False):
@@ -97,3 +99,9 @@ for decade in tqdm(decades, leave=False):
     )
     if len(decade_ds) > 0:
         decade_ds.to_parquet(f"multi_language-{decade}.parquet")
+for decade in tqdm(decades, leave=False):
+    decade_ds = no_language_found_ds.filter(
+        lambda x: f"{x['date'].split('-')[0][:3]}0" == decade
+    )
+    if len(decade_ds) > 0:
+        decade_ds.to_parquet(f"no_language_found-{decade}.parquet")
