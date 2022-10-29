@@ -9,9 +9,7 @@ from tqdm import tqdm
 
 from alto2dataset.europena import *
 
-
 europena_ids = [9200396, 9200357, 9200300, 9200339, 9200355, 9200356, 9200301, 9200338]
-
 
 all_datasets = []
 Path("altodata").mkdir(exist_ok=True)
@@ -83,8 +81,12 @@ languages = (language for language in languages if language is not None)
 languages = set(concat(languages))
 print(languages)
 decades = {f"{d[:3]}0" for d in ds["date"]}
-multi_language_ds = ds.filter(lambda x: x["multi_language"] == True)
-single_language_ds = ds.filter(lambda x: x["multi_language"] == False)
+multi_language_ds = ds.filter(
+    lambda x: x["multi_language"] is True and x["language"] is not None
+)
+single_language_ds = ds.filter(
+    lambda x: x["multi_language"] is False and x["language"] is not None
+)
 no_language_found_ds = ds.filter(lambda x: x["language"] is None)
 for language in tqdm(languages):
     lang_ds = single_language_ds.filter(lambda x: language in x["language"])
